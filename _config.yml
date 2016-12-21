@@ -1,7 +1,7 @@
 
 # SEO settings
-title: "JonahLiu's Site"
-title2: "" # default: ""
+title: "Jonah"
+title2: "Liu" # default: ""
 description: "JonahLiu's Site for coding, writing"
 keywords: "jonahliu, free, download, SEO, blog, web, thinkspace"
 url: http://me.jonahliu.cf # site url
@@ -36,12 +36,12 @@ author:
   email    : jonahliu@outlook.com
   url      : http://me.jonahliu.cf
   github   : http://github.com/lsforusual
-  twitter  : 
-  facebook : 
+  twitter  : JonahLiu
+  facebook : JonahLiu
   linkedin : 
 
 # social settings
-og_locale: "zh_CN"
+og_locale: "en_US"
 twitter_card: "summary_large_image"
 twitter_site: "@HeiswayiNrird"
 
@@ -55,5 +55,7 @@ navbar:
     title: About
   - slug : blog
     title: Blog
+  - slug : Test
+    title: Title
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
