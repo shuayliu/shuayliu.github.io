@@ -4,10 +4,13 @@
 #Research Interest
 - ElectroChemical in Iron Liquids
 - Effects of Temperature on Iron Liquids' Properties.
-You can visit [our group's site](http://stm.xmu.edu.cn) to get more information about my research. ;)
+You can visit [our group's site](http://stm.xmu.edu.cn) to get more information about my research. ; )
+
 #My Projects
 - [AFM-DataAnalysis](https://github.com/lsforusual/stm-afm-dataAnalysis)
 - [yourGirlFriend](https://github.com/lsforusual/yourGirlFriend)
 
 #Contact Me
-[Mail](jonahliu@outlook.com)
+Depart of Chemistry, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P.R.China.
+
+My E-Mail: jonahliuAATToutlook.com)
