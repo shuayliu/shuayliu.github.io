@@ -13,4 +13,4 @@ You can visit [our group's site](http://stm.xmu.edu.cn) to get more information 
 #Contact Me
 Depart of Chemistry, College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P.R.China.
 
-My E-Mail: jonahliuAATToutlook.com)
+My E-Mail: jonahliu AT outlook.com
