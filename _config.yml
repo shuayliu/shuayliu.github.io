@@ -5,7 +5,7 @@ title2: "JonahLiu‘'s Site" # default: ""
 description: "JonahLiu's Site for coding, writing"
 keywords: "Jekyll, free, download, SEO, blog, web, thinkspace"
 url: http://me.jonahliu.cf # site url
-baseurl: "/master" # apply repo name if use it under gh-pages branch
+baseurl: null # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-XXXXX-XX
