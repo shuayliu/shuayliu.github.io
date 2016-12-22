@@ -30,8 +30,13 @@ sass:
 # Author settings
 author:
   name     : "Jonah Liu"
+<<<<<<< HEAD
   job      : "Undergraduate Student at STM Group, College of Chemistry and Chemical Engerneering, Xiamen University"
   bio      : "Creating and Thinking alway make sence."
+=======
+  job      : "Undergraduate Student at Xiamen University"
+  bio      : "Writing, Coding and Thinking."
+>>>>>>> c4790c76501c9fc80e53138c91b57d69e807464d
   thumb    : /images/author.jpg
   email    : jonahliu@outlook.com
   url      : http://me.jonahliu.cf
