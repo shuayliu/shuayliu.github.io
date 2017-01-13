@@ -2,8 +2,8 @@
 title: JonahLiu's Site 
 description: Creation, Thought, and Faith. 
 url: http://me.jonahliu.cf
-logo: halve.png                                       # Site logo
-locale: en_US
+logo: Akarin.png                                       # Site logo
+locale: zh_CN
 
 # Left Block Images
 background:
@@ -31,7 +31,7 @@ sass:
 # Social Links
 #email:             email
 #google.plus:        username
-twitter:            username
+#twitter:            username
 #facebook:           username
 github:             lsforusual
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
