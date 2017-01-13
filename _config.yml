@@ -1,61 +1,65 @@
+# Site
+title: JonahLiu's Site 
+description: Creation, Thought, and Faith. 
+url: http://me.jonahliu.cf
+logo: halve.png                                       # Site logo
+locale: en_US
 
-# SEO settings
-title: "Jonah"
-title2: "Liu" # default: ""
-description: "JonahLiu's Site for coding, writing"
-keywords: "jonahliu, free, download, SEO, blog, web, thinkspace"
-url: http://me.jonahliu.cf # site url
-baseurl: null # apply repo name if use it under gh-pages branch
-# baseurl: null # apply null if repo name is something like username.github.io
+# Left Block Images
+background:
+  homepage: images/home.png                           # this image will be shown on homepage's left block
+  post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
+  default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
 
-google_analytics: UA-XXXXX-XX
-repo: http://github.com/heiswayi/thinkspace
-disqus_shortname: "heiswayi"
-twitter_username: "HeiswayiNrird"
-comments: true 
-
-# Build settings
-permalink   : /:year/:title/
-markdown    : kramdown
-highlighter : rouge
-
-source: ./
-destination: ./_site
-
-# Sass configuration
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
 sass:
-  sass_dir: assets/scss
-  style: compressed # expanded
+  sass_dir:         assets/_sass
+  style:            compressed
 
-# Author settings
-author:
-  name     : "Jonah Liu"
-  job      : "Graduate Student at STM Group, College of Chemistry and Chemical Engerneering, Xiamen University"
-  bio      : "Creating and Thinking alway make sence."
-  thumb    : /images/author.jpg
-  email    : jonahliu@outlook.com
-  url      : http://me.jonahliu.cf
-  github   : http://github.com/lsforusual
-  twitter  : JonahLiu
-  facebook : JonahLiu
-  linkedin : 
+# Google Analytics
+#google-analytics: UA-XXXXX-Y
 
-# social settings
-og_locale: "en_US"
-twitter_card: "summary_large_image"
-twitter_site: "@HeiswayiNrird"
+# Social Links
+#email:             email
+#google.plus:        username
+twitter:            username
+#facebook:           username
+github:             lsforusual
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#soundcloud:        username
+weibo:            Ls_pt 
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+#behance:           username
 
+# Gems
 gems:
-  - bourbon
-  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
 
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
-  - slug : Test
-    title: Title
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]

@@ -1,14 +1,25 @@
-# Thinkspace v2
+# Halve  [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
+  
+## `Sorry guys but there will be no update until I buy a new laptop.`
 
-**Thinkspace** - a minimalist and white clean Jekyll theme designed for engineers to write their ranting and findings. It's best for personal blog or project blog use. Made with [Sass](https://github.com/sass/sass) which automates the compression of the compiled CSS code, and cool Jekyll layout by [Anatol Broder](http://jch.penibelst.de/) for compressing the HTML output code on-the-fly. Use typeface from [Inconsolata](https://fonts.google.com/specimen/Inconsolata) by Google Fonts and [Font Awesome](http://fontawesome.io/). [Disqus](https://disqus.com/) comment supported.
+This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
 
-[**Live Demo**](http://heiswayi.github.io/thinkspace/)
+To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
 
-### Screenshot
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
 
-![Screenshot](http://i.imgur.com/TgaRfrU.png)
+## Preview   
+![screenshot of Halve](/images/halve-home-image.png)
 
-### License
+See a [live version of Halve](http://taylantatli.github.io/Halve) hosted on GitHub.
 
-[MIT](LICENSE.md)
+# Credits
+- Original Work: [Vangelis Tzortzis](https://github.com/srekoble)  
+- Sample Posts and some code examples: [Michael Rose](https://github.com/mmistakes/)
+- Images: [Unsplash](https://unsplash.com/) and [Lorem Pixel](http://lorempixel.com)
 
+### Others
+- [Jekyll](http://jekyllrb.com/)
+- [jQuery](http://jquery.com/)
+- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
+- [FitVids.JS](http://fitvidsjs.com/)
