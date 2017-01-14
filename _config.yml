@@ -1,5 +1,5 @@
 # Site
-title: Jonah<strong>Liu</strong> 
+title: JonahLiu 
 description: Creation, Thought, and Faith. 
 url: http://me.jonahliu.cf
 logo: Akarin.png                                       # Site logo
@@ -29,7 +29,7 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+email:             jonahliu@yeah.net
 #google.plus:        username
 #twitter:            username
 #facebook:           username
