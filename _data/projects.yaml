@@ -6,3 +6,7 @@
   url: http://github.com/lsforusual/stm-afm-dataAnalysis
   image: http://me.jonahliu.cf/images/Akarin.png
   completed: true
+
+- title: pyDataAnalysis
+  url: https://github.com/lsforusual/pyZfit
+  completed: true
