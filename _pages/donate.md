@@ -16,4 +16,4 @@ Paypal: [```paypal.me/ShLiu```](http://paypal.me/ShLiu)
 **&**
 Alipay:    
 <br>
-<img src="../images/enjo_kosai_2.jpg" width=200> <br>
+![众筹买水](../images/enjo_kosai_2.jpg)
