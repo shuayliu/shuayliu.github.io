@@ -14,7 +14,6 @@ Paypal: [```paypal.me/ShLiu```](http://paypal.me/ShLiu)
 
 ### In China Mailand   
 **&**
-Alipay:
-<img src="../images/enjo_kosai_2.jpg" width=300>
-
-<img src="../images/enjo_kosai.jpg" width=300>
+Alipay:    
+<br>
+<img src="../images/enjo_kosai_2.jpg" width=200> <br>
