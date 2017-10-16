@@ -14,11 +14,9 @@ permalink: /cv.html
 **Address:** Room 439 of Chemistry Building, College of Chemistry and Chemical Engeering, Siming Road 422, Xiamen, Fujian, P.R.C.
 
 ## EDUCATION
-| | | |
-|---:|:---:|---:|
-| for M.Sc |Xiamen University|  2016-present| 
-|B.Sc.|Northwest A&F University |2012-2016 
-| |Xuchang Senior High  |2009-2012|
+- for M.Sc., Xiamen University, 2016-present,   
+- B.Sc., Northwest A&F University, 2012-2016,    
+- Xuchang Senior High, 2009-2012.
 
 
 ## RESEARCH EXPERIENCE   
