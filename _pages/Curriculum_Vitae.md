@@ -1,3 +1,10 @@
+---
+layout: page
+title: My Curriculum Vitae
+sitemap: false
+permalink: /cv.html
+---
+
 ## INFORMATION
 **Name:** Sh Jonah Liu,   
 **Birth:** 1995.01,   
