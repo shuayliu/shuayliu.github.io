@@ -6,7 +6,7 @@ permalink: /cv.html
 ---
 
 ## INFORMATION
-**Name:** Sh Jonah Liu,   
+**Name:** Jonah Sh Liu,   
 **Birth:** 1995.01,   
 **Degree:** B.Sc,   
 **Religion:** Puritan, Christain,    
