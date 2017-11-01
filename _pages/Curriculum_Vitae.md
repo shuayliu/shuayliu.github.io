@@ -10,8 +10,12 @@ permalink: /cv.html
 **Birth:** 1995.01,   
 **Degree:** B.Sc,   
 **Religion:** Puritan, Christain,    
-**E-mail:** shliu{@}stu.xmu.edu.cn   
-**Address:** Room 439 of Chemistry Building, College of Chemistry and Chemical Engeering, Siming Road 422, Xiamen, Fujian, P.R.C.
+**E-mail:** shliu{@}stu.xmu.edu.cn     
+**Interests:** Ionic Liquid/Electrode interfacial structure, Atomic Force Microscopy,  AFM Force Spectroscopy.     
+**Address:** 
+> Room 439, Chemistry Building,     
+> College of Chemistry and Chemical Engeering,     
+> Siming Road 422, Xiamen, Fujian, P.R.China.   
 
 ## EDUCATION
 - **for M.Sc., Xiamen University, 2016-present,**  
