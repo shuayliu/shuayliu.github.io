@@ -14,13 +14,13 @@ permalink: /cv.html
 **Address:** Room 439 of Chemistry Building, College of Chemistry and Chemical Engeering, Siming Road 422, Xiamen, Fujian, P.R.C.
 
 ## EDUCATION
-- for M.Sc., Xiamen University, 2016-present,   
+- **for M.Sc., Xiamen University, 2016-present,**  
 - B.Sc., Northwest A&F University, 2012-2016,    
 - Xuchang Senior High, 2009-2012.
 
 
 ## RESEARCH EXPERIENCE   
-- [BW Mao's](http://stm.xmu.edu.cn) research group, department of chemistry, Xiamen University.   2016-present    
+- **[BW Mao's](http://stm.xmu.edu.cn) research group, department of chemistry, Xiamen University.   2016-present**    
 - [YT Yang's](https://hxyyxy.nwafu.edu.cn/szdw/21747.htm) research group, department of applied chemistry, *Nowthwest A&F University*. 2013-2016 
 - Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, Xuchang, summer 2014
 - Summer School of Chemistry for Senior High, *Zhengzhou University*, summer 2011    
