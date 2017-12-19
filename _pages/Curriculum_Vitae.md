@@ -11,7 +11,7 @@ permalink: /cv.html
 **Degree:** B.Sc,   
 **Religion:** Reformed,    
 **E-mail:** shliu{@}stu.xmu.edu.cn   
-**Address:** Room 439 of Chemistry Building, College of Chemistry and Chemical Engeering, Siming Road 422, Xiamen, Fujian, P.R.C.
+**Address:** Room 439 of Chemistry Building, College of Chemistry and Chemical Engeering, South Siming Road 422, Xiamen, Fujian, P.R.China.
 
 ## EDUCATION
 - **for M.Sc., Xiamen University, 2016-present,**  
