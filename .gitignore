@@ -1,3 +1,4 @@
 #ALL ~ File
 *.*~
 *.swp
+.DB*
