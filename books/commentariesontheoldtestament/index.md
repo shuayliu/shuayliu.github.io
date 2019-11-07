@@ -22,7 +22,7 @@ title: Commentaries on the Old Testament
 - [Jer 1-9](comm_vol17.html)
 - [Jer 10-19](comm_vol18.html)
 - [Jer 20-29](comm_vol19.html)
-- [Jer 30-47]](comm_vol20.html)
+- [Jer 30-47](comm_vol20.html)
 - [Jer 48-52, Lam](comm_vol21.html)
 - [Eze 1-12](comm_vol22.html)
 - [Eze 13-20](comm_vol23.html)
