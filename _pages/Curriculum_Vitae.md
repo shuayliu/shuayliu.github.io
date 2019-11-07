@@ -36,6 +36,7 @@ permalink: /cv.html
 - Minimizing the electrosorption of water from humid ionic liquids on electrodes, *Nature Communications*, **3rd Author**,2018.12, DOI:[10.1038/s41467-018-07674-0](https://doi.org/10.1038/s41467-018-07674-0)
 
 - An Investigation on the Structure of Au(111)/Imidazolium-Based Ionic Liquid Interface: Effect of Alkyl Side Chain Length. *Journal of Electrochemistry*, **2nd Author**, 2018.10,  DOI:[10.13208/j.electrochem.180148 ](http://electrochem.xmu.edu.cn/CN/10.13208/j.electrochem.180148)<br>
+<<<<<<< HEAD
 
   陈莉，**刘帅**，李棉刚，苏建加，颜佳伟，毛秉伟. Au(111)/咪唑基离子液体界面结构研究：阳离子侧链长度的影响[J]. 电化学, 2018, 24(05): 511-516.	
 
@@ -43,6 +44,14 @@ permalink: /cv.html
 
 - Washing efficiency of Cd from contaminated Lou soil by saponin and low-molecular-weight organic acid, *Journal of Northwest A & F University(Natural Science Edition)*, **Fourth Author**, 2018.05, DOI: [10.13207/j.cnki.jnwafu.2018.05.012](http://doi.org/10.13207/j.cnki.jnwafu.2018.05.012)<br>
   李珍,邓红侠,龚正清,**刘帅**,杨亚提.皂苷和小分子有机酸对污染土娄土中Cd的淋洗效果[J].西北农林科技大学学报(自然科学版),2018(05):85-93+100.
+=======
+陈莉，**刘帅**，李棉刚，苏建加，颜佳伟，毛秉伟. Au(111)/咪唑基离子液体界面结构研究：阳离子侧链长度的影响[J]. 电化学, 2018, 24(05): 511-516.	
+
+- AFM Force Curve Investigation on the Influence of Cation Side Alkyl Chain Length with Single Crystalline Electrode/Ionic Liquid Interfaces, *National Conference on Electrochemistry in China*, **First Author**, 2017.12.01-04.
+
+- Washing efficiency of Cd from contaminated Lou soil by saponin and low-molecular-weight organic acid, *Journal of Northwest A & F University(Natural Science Edition)*, **Fourth Author**, 2018.05, DOI: [10.13207/j.cnki.jnwafu.2018.05.012](http://doi.org/10.13207/j.cnki.jnwafu.2018.05.012).<br>
+李珍,邓红侠,龚正清,**刘帅**,杨亚提.皂苷和小分子有机酸对污染土娄土中Cd的淋洗效果[J].西北农林科技大学学报(自然科学版),2018(05):85-93+100.
+>>>>>>> c861ac42ee34795f6ba41b81012cdcdc27a7b8de
 
 - Study on the leaching remediation of phenol form contaminated Lou soil by two biosurfactants, *Environmental Pollution & Control*,  **First Author**, 2016.04, DOI:[10.15985/j.cnki.1001-3865.2016.04.014](http://doi.org/10.15985/j.cnki.1001-3865.2016.04.014).<br>
   **刘帅**,闫海婷,李珍,杨亚提,邓红侠.两种生物表面活性剂对污染塿土中苯酚的淋洗修复研究[J].环境污染与防治,2016,38(04):70-77.
