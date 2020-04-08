@@ -26,13 +26,13 @@ sass:
   style:            compressed
 
 # Google Analytics
-#google-analytics: UA-XXXXX-Y
+google-analytics: UA-162084127-2
 
 # Social Links
 email:             jonahliu@yeah.net
 #google.plus:        username
 #twitter:            username
-#facebook:           username
+facebook:           shuayliou
 github:             lsforusual
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:          jonah-liu
