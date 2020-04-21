@@ -8,7 +8,7 @@ permalink: /donate.html
 
 **IF YOU**  
 ### Want to be Anonymous    
-Bitcoin：```3DMz3YpxBB3kTbipqEYiwLKAEhTvABxR7q```
+~~Bitcoin：```3DMz3YpxBB3kTbipqEYiwLKAEhTvABxR7q```~~('cause I forget my pass codes)
 ### Outside the China Mailand    
 Paypal: [```paypal.me/ShLiu```](http://paypal.me/ShLiu)
 

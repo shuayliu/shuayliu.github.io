@@ -4,9 +4,14 @@
   completed: false
 - title: STM-AFM-dataAnalysis
   url: http://github.com/lsforusual/stm-afm-dataAnalysis
-  image: http://me.jonahliu.cf/images/Akarin.png
+  image: http://jonahliu.cf/images/Akarin.png
   completed: true
 
 - title: pyZfit
   url: https://github.com/lsforusual/pyZfit
+  completed: true
+  
+  title: ILquery
+  url: https://github.com/lsforusual/ILquery
+  image: ../images/Akarin.png
   completed: true
