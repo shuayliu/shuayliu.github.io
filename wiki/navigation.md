@@ -1,5 +1,6 @@
 # Jonah Liu's wiki
 [Home](home.md)
-[About](about.md)
-[Download](download.md)
+[Notes](notes/index.md)
 [Manual Books](manual/index.md)
+[Download](download.md)
+[About](about.md)

@@ -2,6 +2,7 @@
   url: http://lsforusual.github.io/
   image: http://taylantatli.me/Halve/images/halve-home-image.png
   completed: false
+  
 - title: STM-AFM-dataAnalysis
   url: http://github.com/lsforusual/stm-afm-dataAnalysis
   image: http://jonahliu.cf/images/Akarin.png
@@ -11,7 +12,7 @@
   url: https://github.com/lsforusual/pyZfit
   completed: true
   
-  title: ILquery
+- title: ILquery
   url: https://github.com/lsforusual/ILquery
   image: ../images/Akarin.png
   completed: true
