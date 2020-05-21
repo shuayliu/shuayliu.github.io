@@ -15,10 +15,10 @@ Picoview 1.14.4是MI5500配套软件，但该软件的操作文档内容极差�
 
 - 分析Windows应用程序入口
 
-     ```cmd
+     ```bash
      wmic process where caption="update.exe" get caption,commandline /value
      ```
-- python的```help(Module)```命令
+- python的`help(Module)`命令
 
 ## 文件树
 
@@ -61,17 +61,17 @@ Picoview 1.14.4是MI5500配套软件，但该软件的操作文档内容极差�
 
 
 
-```loadControl.exe```提供了一个控制AFM的简单范例，分析其引用，有两个值得关注的文件：根目录下的```AFMcontrol.dll```，```pressInt.dll``` ，其余的dll均为系统dll。
+`loadControl.exe`提供了一个控制AFM的简单范例，分析其引用，有两个值得关注的文件：根目录下的`AFMcontrol.dll`，`pressInt.dll` ，其余的dll均为系统dll。
 
 ![image-20200521174511077](picviewAnalysis.assets/image-20200521174511077.png)
 
-此外，在```plugins```目录下，```SpectroscopyPlugIn.pyd```将此目录下的所有值返回主程序。对plugin分析时，此文件也须参考。
+此外，在`plugins`目录下，`SpectroscopyPlugIn.pyd`将此目录下的所有值返回主程序。对plugin分析时，此文件也须参考。
 
 ## AFMcontrol.dll入口函数
 
-```loadControl.exe```对```AFMcontrol.dll```的调用主要有三类五个：
+`loadControl.exe`对`AFMcontrol.dll`的调用主要有三类五个：
 
-```c++
+```cpp
 // 构造函数
 CAFMcontrol::CAFMcontrol(void);
 // 连接仪器和断开
@@ -89,9 +89,9 @@ AFMcontrol包含了一个CAFMcontrol类及一个int型nAFMcontrol，类内包含
 
 ## pressInt.dll 入口函数
 
-```AFMcontrol.dll``` 对```pressInt.dll```的调用共七个函数：
+`AFMcontrol.dll` 对`pressInt.dll`的调用共七个函数：
 
-```c++
+```cpp
 //构造与析构函数
 pressInt::pressInt(void);
 pressInt::~pressInt(void);
@@ -111,9 +111,9 @@ pressInt包含了一整个pressInt类。==该文件是底层？==
 
 ## SpectroscopyPlugIn.pyd
 
-该文件在Dependency Walker下暴露出的接口只有initSpectroscopyPlugIn，且无参数，返回类型。但可通过python2.7的```import SpectroscopyPlugIn```导入，导入后以```help(SpectroscopyPlugIn)```命令即可看到其结构。
+该文件在Dependency Walker下暴露出的接口只有initSpectroscopyPlugIn，且无参数，返回类型。但可通过python2.7的`import SpectroscopyPlugIn`导入，导入后以`help(SpectroscopyPlugIn)`命令即可看到其结构。
 
-```python
+```cpp
 CLASSES
     Boost.Python.instance(__builtin__.object)
         SpectroscopyPlugIn
@@ -209,7 +209,7 @@ while True:
 模板中对xDataList和yDataList解释为data array，应该是两个数组。那么c++形式的函数原型是否如下？
 
 
-```c
+```cpp
 double myPlugin(double* x, double* y)
 ```
 
