@@ -63,7 +63,7 @@ Picoview 1.14.4是MI5500配套软件，但该软件的操作文档内容极差�
 
 ```loadControl.exe```提供了一个控制AFM的简单范例，分析其引用，有两个值得关注的文件：根目录下的```AFMcontrol.dll```，```pressInt.dll``` ，其余的dll均为系统dll。
 
-![image-20200521174511077](https://i.loli.net/2020/05/21/b7a5ZITovixzBQm.png)
+![image-20200521174511077](picviewAnalysis.assets/image-20200521174511077.png)
 
 此外，在```plugins```目录下，```SpectroscopyPlugIn.pyd```将此目录下的所有值返回主程序。对plugin分析时，此文件也须参考。
 
@@ -83,7 +83,7 @@ double CAFMcontrol::setDefl(double,bool);
 ```
 暴露的入口函数：
 
-![image-20200521174756947](https://i.loli.net/2020/05/21/FHmyGQneiz8kbUO.png)
+![image-20200521174756947](picviewAnalysis.assets/image-20200521174756947.png)
 
 AFMcontrol包含了一个CAFMcontrol类及一个int型nAFMcontrol，类内包含一系列控制方法。==此dll文件应该是核心控制模块==
 
@@ -105,7 +105,7 @@ void pressInt::writeData(void);
 ```
 暴露的入口函数：
 
-![image-20200521181002823](https://i.loli.net/2020/05/21/TWmwdOuNML4DUIx.png)
+![image-20200521181002823](picviewAnalysis.assets/image-20200521181002823.png)
 
 pressInt包含了一整个pressInt类。==该文件是底层？==
 
