@@ -24,7 +24,7 @@
 
 #### 示例代码
 
-```pyt
+```python
 import picoscript
 print "GetMode:", picoscript.GetMode( )
 ```
