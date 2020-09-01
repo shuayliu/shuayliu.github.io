@@ -27,6 +27,7 @@
 ```python
 import picoscript
 print "GetMode:", picoscript.GetMode( )
+
 ```
 
 
@@ -98,6 +99,7 @@ print "GetMode:", picoscript.GetMode( )
 ```python
 import picoscript
 print "GetStatusScanLine:",picoscript.GetStatusScanLine()
+
 ```
 
 
