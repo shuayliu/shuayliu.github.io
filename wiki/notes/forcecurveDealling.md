@@ -36,6 +36,14 @@ Date: 20201211
 
 *Note:* qForceCurveAnalysis的核心库为```ForceCurve.dll```，请保证该文件存在，并且版本正确。
 
+在打开程序前，须先在```config.ini```中设置参数：
+
+![image-20201211181044663](https://i.loli.net/2020/12/11/v8beQc2BwHMoOny.png)
+
+在**基本处理**中，只需修改```ForceConstant```力常数项和```Skiprows```文件间隔行项。``Skiprows``的数值就是上一章节查看txt文件确定的文件头行数，如果不确定具体多少，建议尝试164/165/166三个数值，数值错误时程序无法正常运行。
+
+**注意：不要更改参数名称，包括但不限于空格、大小写等，修改时只修改等号后的内容**
+
 打开程序：
 
 ![image-20201211154715870](https://i.loli.net/2020/12/11/TkXA9U42NLw8hMQ.png)
