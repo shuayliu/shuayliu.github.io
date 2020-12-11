@@ -8,4 +8,8 @@
 
 - [水氧无关微型参比电极](glassSealedSilverReferenceElectrode.md)
 
+- [力曲线处理笔记](forcecurveDealling.md)
+
+- [AFM-AUTOALB控制策略](AFM-AUTOLAB-Strategy.md)
+
     
