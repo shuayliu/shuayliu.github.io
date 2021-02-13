@@ -27,7 +27,7 @@ C/C++调用C#，除了要借用公共语言运行库（CLR），还要注意一�
 
 
 类定义：
-```c++
+```cpp
 class __declspec(dllexport) AUTOLAB{
 
 public:
@@ -72,7 +72,7 @@ private:
 
 测试代码
 
-```c++
+```cpp
 bool testCV() {
 
 char hdw[] = R"(C:\Program Files\Metrohm Autolab\Autolab SDK 1.11\Hardware Setup Files\PGSTAT204\HardwareSetup.xml)";
