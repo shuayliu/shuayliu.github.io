@@ -21,7 +21,7 @@ enum COMMAND{
 
 #### Nova 2.1.4 使用的.Net代码 v0.2 updateTime:2020.09.03
 
-```c#
+```c
 using System;
 using System.Collections.Generic;
 using System.Linq;
