@@ -12,4 +12,6 @@
 
 - [AFM-AUTOALB控制策略](AFM-AUTOLAB-Strategy.md)
 
+- [AUTOALB-SDK控制系列(一)](AUTOALB-SDK-Control1.md)
+
     
