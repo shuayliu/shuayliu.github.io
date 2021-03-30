@@ -33,7 +33,7 @@ permalink: /cv.html
 
 ### SCHOLARSHIPS
 
-- *ICBC Scholarship*
+- *ICBC Scholarship*, XMU, 2021
 - *Chen Guo-zhen Scholarship*, College of Chem.&Chem. Eng. , XMU, 2020.
 - *Qing Han Scholarship* , XMU 2019.
 
