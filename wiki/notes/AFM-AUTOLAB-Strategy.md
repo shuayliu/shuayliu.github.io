@@ -1,6 +1,6 @@
 #### 统一状态编码
 
-```c++
+```cpp
 enum COMMAND{
     EIS_QUERY = 0x002, AFM_QUERY = 0x004, ALL_QUERY = 0x006,
     EIS_READY = 0x007, AFM_READY = 0x009, ALL_READY = 0x00F,
