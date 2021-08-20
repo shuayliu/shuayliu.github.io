@@ -138,13 +138,12 @@ def batchParkTipToMatrixAndMeasureEC(matrixX = 4,
     time.sleep(3)
 ```
 
-### 
 
-## 	其它安全函数
-
+## 0x03 	其它安全函数
 
 
-## Z位置看门狗 zWatchDog()
+
+###  Z位置看门狗 zWatchDog()
 
 Z位置看门狗：在压针或者过远的时候通过调节样品盘来调节
 
