@@ -1,0 +1,20 @@
+I"Y<h1 id="illustration-of-electrochemical-processing-package">Illustration Of <em>ElectroChemical Processing Package</em></h1>
+
+<h2 id="problems-in-nowadays-electrochemical-softerware">Problems In Nowaday’s ElectroChemical Softerware</h2>
+<ul>
+  <li>Too few, and donot focus on  Specific Electrode Process;</li>
+  <li>Good On Simulation, But POOR on data fitting;</li>
+  <li><strong>EXPENSIVE</strong></li>
+  <li><strong>DONOT <em>OPENSOURCE</em></strong>, which is <em>VERY</em> important to develope new features of software packages!</li>
+</ul>
+
+<h2 id="main-features-of-electrochemical-package">Main Features of <em>ElectroChemical Package</em></h2>
+
+<h2 id="hardness-in-developement">Hardness in Developement</h2>
+<ul>
+  <li>C++ code skill</li>
+  <li>Design of GUI and logical problems;</li>
+  <li>Knowlegements On ElectroChemical Process;</li>
+</ul>
+
+:ET

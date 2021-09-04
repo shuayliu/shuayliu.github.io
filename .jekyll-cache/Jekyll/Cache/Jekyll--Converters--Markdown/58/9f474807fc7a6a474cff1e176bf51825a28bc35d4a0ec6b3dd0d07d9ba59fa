@@ -1,0 +1,30 @@
+I"�<p>Here introduce an ionic liquid query tool, one of Jonah Liu’s academic tool kits.</p>
+
+<p>I wrote it by C++ with Qt5 library. As the Qt5 EUAL required, the source codes are opened and uploaded to GitHub. You can use it/change it freely under LGPLv3.0.</p>
+
+<p>You can find the original codes through <code class="language-plaintext highlighter-rouge">Mainpage -&gt;(upright)projects -&gt;ILQuery</code> or directly from <a href="https://github.com/lsforusual/ILquery">here</a>.</p>
+
+<h2 id="howto-use">HOWTO USE</h2>
+
+<p>Just open the software -&gt; type the cation abbreviation &amp; inion abbreviation (I <strong>STRONGLY RECOMMEND</strong> selecting the auto completer to finish ion’s abbreviation)-&gt; click <em>query</em> button.</p>
+
+<h2 id="todo">TODO</h2>
+
+<p>An un-completed API service was established on https://api.jonahliu.ga/. One can use GET method like <code class="language-plaintext highlighter-rouge">https://api.jonahliu.ga/?s=ILinfo.basic&amp;cid=c01001&amp;aid=a01001</code> obtaining a JSON-typed basic information. It is just the same as this software does.</p>
+
+<p><strong>BUT</strong> the problem is the <code class="language-plaintext highlighter-rouge">cid</code> and <code class="language-plaintext highlighter-rouge">aid</code> are not easy to get through name or abbreviation.</p>
+
+<p>I am bored to solve this in recent time.</p>
+
+<h2 id="if-you-are-an-expert">IF YOU ARE AN EXPERT</h2>
+
+<p>You can find the original database-<code class="language-plaintext highlighter-rouge">ildb.db</code> in the source codes. It is a SQLite3 database, without additional encryption. You can get more detailed data about IL.</p>
+
+<p>Any problem or suggestion while using the software, please do not hesitate to email me. –you can also find the email address at the <a href="https://jonahliu.cf">mainpage</a>.</p>
+
+<h2 id="more">More</h2>
+
+<p>About <a href="https://jonahliu.cf/cv">Me</a></p>
+
+<p>I won’t mind if you were generous enough to give some <a href="https://jonahliu.cf/donate">financial support</a>.</p>
+:ET
