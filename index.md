@@ -113,30 +113,36 @@ Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, X
 
 `2021`
 
-Charge Transfer Kinetics at Ag(111) Single Crystal Electrode/Ionic Liquid Interfaces: Dependence on the Cation Alkyl Side Chain Length, *ChemElectroChem*, **Co-1st Author**, 2021.2, DOI: [10.1002/celc.202100094](https://doi.org/10.1002/celc.202100094).
+M. Li†, **S. Liu**†, L. Xie, J. Yan, C. Lagrost, S. Wang, G. Feng, P. Hapiot, B. Mao, *ChemElectroChem* **2021**, *8*, 983-990. († contribute equally) DOI: [10.1002/celc.202100094](https://doi.org/10.1002/celc.202100094).
+
+H. Zheng, Y. Lu, K.-H. Ye, J. Hu, **S. Liu**, J. Yan, Y. Ye, Y. Guo, Z. Lin, J. Cheng, Y. Cao, *Nat. Commun.* **2021**, *12*, 91. DOI: [10.1038/s41467-020-20341-7](https://doi.org/10.1038/s41467-020-20341-7)J. 
+
+Wu, R. Zhou, P. M. Radjenovic, **S. Liu**, D. Wu, J. Li, B. Mao, J. Yan, *Electrochim. Acta* **2021**, *390*, 138859. DOI: [10.1016/j.electacta.2021.138859](https://doi.org/10.1016/j.electacta.2021.138859)
 
 `2020`
 
-Water-induced mica/ionic liquid interfacial nanostructure switches revealed by AFM, *Chem. Commun.*, **1st Author**, 2020.10, DOI:[10.1039/D0CC06587K](https://doi.org/10.1039/D0CC06587K).
+**S. Liu**, M. Li, J. Peng, L. Chen, B. Mao, J. Yan, *Chem. Commun*. **2020**, *56*, 15064-15067. DOI:[10.1039/D0CC06587K](https://doi.org/10.1039/D0CC06587K).
 
 `2019`
 
-In-situ STM and AFM studies on electrochemical Interfaces in imidazolium-based ionic liquids, *Electrochimica Acta*, **Co-1st Author**, 2019.06, DOI: [10.1016/j.electacta.2019.04.066](https://doi.org/10.1016/j.electacta.2019.04.066).
+**S. Liu**†, J. Peng†, L. Chen, P. Sebastián, J. M. Feliu, J. Yan, B. Mao, *Electrochim. Acta* **2019**, *309*, 11-17. († contribute equally) DOI: [10.1016/j.electacta.2019.04.066](https://doi.org/10.1016/j.electacta.2019.04.066).
+
+J. Bai, A. Daaoub, S. Sangtarash, X. Li, Y. Tang, Q. Zou, H. Sadeghi, **S. Liu**, X. Huang, Z. Tan, J. Liu, Y. Yang, J. Shi, G. Mészáros, W. Chen, C. Lambert, W. Hong, *Nat. Mater.* **2019**, *18*, 364-369.  DOI: [10.1038/s41563-018-0265-4](https://doi.org/10.1038/s41563-018-0265-4)
 
 `2018`
 
-Minimizing the electrosorption of water from humid ionic liquids on electrodes, *Nature Communications*, **3rd Author**,2018.12, DOI:[10.1038/s41467-018-07674-0](https://doi.org/10.1038/s41467-018-07674-0).
+S. Bi, R. Wang, **S. Liu**, J. Yan, B. Mao, A. A. Kornyshev, G. Feng, *Nat. Commun.* **2018**, *9*, 1-9. DOI:[10.1038/s41467-018-07674-0](https://doi.org/10.1038/s41467-018-07674-0).
 
-An Investigation on the Structure of Au(111)/Imidazolium-Based Ionic Liquid Interface: Effect of Alkyl Side Chain Length. *Journal of Electrochemistry*, **2nd Author**, 2018.10,  DOI:[10.13208/j.electrochem.180148 ](http://electrochem.xmu.edu.cn/CN/10.13208/j.electrochem.180148)<br>
+L. Chen, **S. Liu**, M, Li, J. Su, J. Yan, B. Mao,  An Investigation on the Structure of Au(111)/Imidazolium-Based Ionic Liquid Interface: Effect of Alkyl Side Chain Length. *Journal of Electrochemistry*, 2018.10,  DOI:[10.13208/j.electrochem.180148 ](http://electrochem.xmu.edu.cn/CN/10.13208/j.electrochem.180148)<br>
 陈莉,**刘帅**,李棉刚,苏建加,颜佳伟,毛秉伟. Au(111)/咪唑基离子液体界面结构研究：阳离子侧链长度的影响[J]. 电化学, 2018, 24(05): 511-516.	
 
-Washing efficiency of Cd from contaminated Lou soil by saponin and low-molecular-weight organic acid, *Journal of Northwest A & F University(Natural Science Edition)*, **4th Author**, 2018.05, DOI: [10.13207/j.cnki.jnwafu.2018.05.012](http://doi.org/10.13207/j.cnki.jnwafu.2018.05.012).<br>
-   李珍,邓红侠,龚正清,**刘帅**,杨亚提.皂苷和小分子有机酸对污染土娄土中Cd的淋洗效果[J].西北农林科技大学学报(自然科学版),2018(05):85-93+100.
+Z. Li, H. Deng, Z. Gong, **S. Liu**, Y. Yang, Washing efficiency of Cd from contaminated Lou soil by saponin and low-molecular-weight organic acid, *Journal of Northwest A & F University(Natural Science Edition)*,  2018.05, DOI: [10.13207/j.cnki.jnwafu.2018.05.012](http://doi.org/10.13207/j.cnki.jnwafu.2018.05.012).<br>
+李珍,邓红侠,龚正清,**刘帅**,杨亚提.皂苷和小分子有机酸对污染土娄土中Cd的淋洗效果[J].西北农林科技大学学报(自然科学版),2018(05):85-93+100.
 
 `2016`
 
-Study on the leaching remediation of phenol form contaminated Lou soil by two biosurfactants, *Environmental Pollution & Control*,  **First Author**, 2016.04, DOI:[10.15985/j.cnki.1001-3865.2016.04.014](http://doi.org/10.15985/j.cnki.1001-3865.2016.04.014).<br>
-   **刘帅**,闫海婷,李珍,杨亚提,邓红侠.两种生物表面活性剂对污染塿土中苯酚的淋洗修复研究[J].环境污染与防治,2016,38(04):70-77.
+**S. Liu**, H. Yan, Z. Li, Y. Yang, H. Deng, Study on the leaching remediation of phenol form contaminated Lou soil by two biosurfactants, *Environmental Pollution & Control*, 2016.04, DOI:[10.15985/j.cnki.1001-3865.2016.04.014](http://doi.org/10.15985/j.cnki.1001-3865.2016.04.014).<br>
+**刘帅**,闫海婷,李珍,杨亚提,邓红侠.两种生物表面活性剂对污染塿土中苯酚的淋洗修复研究[J].环境污染与防治,2016,38(04):70-77.
 
 ### Keynote
 
@@ -147,15 +153,17 @@ Study on the leaching remediation of phenol form contaminated Lou soil by two bi
 
 `2021`
 
-Probing Electrochemical Adsorption of Water on Au(111) in Ionic Liquids - A Combined in situ Atomic Force Microscopy and Impedance Study, ISE 2021, Jeju, Korea(Online), 2021.08.30-09.03.
+AFM技术揭示水诱导云母/离子液体界面结构转变(Reveal the water induced ionic ionic liquid-mica interaction switches by AFM), *厦门大学第四届博士研究生学术论坛(The 4th Ph.D. Academic Forum of Xiamen University)*，**Poster**, Xiamen, 2021.10.16
+
+Probing Electrochemical Adsorption of Water on Au(111) in Ionic Liquids - A Combined in situ Atomic Force Microscopy and Impedance Study, *ISE 2021*, **Poster**, Jeju, Korea(Online), 2021.08.30-09.03.
 
 `2019`
 
-水诱导离子液体/云母界面相互作用转变(Water induced ionic liquid-mica interaction switches), SPM 2019, Hefei, 2019.09.25~28.
+水诱导离子液体/云母界面相互作用转变(Water induced ionic liquid-mica interaction switches), *SPM 2019*, **Poster**, Hefei, 2019.09.25~28.
 
 `2017`
 
-AFM Force Curve Investigation on the Influence of Cation Side Alkyl Chain Length with Single Crystalline Electrode/Ionic Liquid Interfaces, *National Conference on Electrochemistry in China*, **1st Author**, 2017.12.01-04.
+AFM Force Curve Investigation on the Influence of Cation Side Alkyl Chain Length with Single Crystalline Electrode/Ionic Liquid Interfaces, *National Conference on Electrochemistry in China*,**Poster**, Shanghai, 2017.12.01-04.
 
 
 
@@ -184,7 +192,29 @@ College English Test level 4(CET-4),  Spring 2013
 * C/C++(CCL ~~not GUI~~  a little in Qt5)
 * Boasting in nonsense.
 
-## COMMUNITY WORK
+## WORK
+`2018-2021`
+Safety Officer of Laboratory.
+
+`Fall 2017`
+
+TA of undergraduate course *Physical Chemistry*
+
+`Fall 2018`
+
+TA of undergraduate course *Physical Chemistry*
+
+
+
+## COMMUNITY
+
+`2021`
+
+One-year-term head of Haibin fellowship - a christain students' fellowship of Xiamen Xunsiding Church, 2021.
+
+`2020-2021`
+
+Group leader of Olive tree - a christain students group in Xiamen University, 2020-2021.
 
 `2017-2019`
 
@@ -192,19 +222,19 @@ Volunteer teaching, church of Dianqian Xiamen, 2017-2019.(terminated due to CCP�
 
 `2016`
 
-Head of Summer Camp for Young Students, Shaanxi, 2016.
+Head of summer camp for teenagers, Shaanxi, 2016.
 
 `2015`
 
-Head of Summer Camp for Young Students, Shandong, 2015.
+Head of summer camp for teenagers, Shandong, 2015.
 
 `2014-2016`
 
-Co-leader of AgapeGroup - A christain students fellowship in Yangling, 2014-2016.
+Co-leader of AgapeGroup - a christain students fellowship in Yangling, 2014-2016.
 
 `2013-2016`
 
-Teacher of Sunday school, church of Zhangjiagang Yangling, 2013-2016.
+Teacher of sunday school, church of Zhangjiagang Yangling, 2013-2016.
 
 `2012-2013`
 
