@@ -8,12 +8,13 @@ Electrochemistry Ph.D student
 <div id="webaddress">
 <i class="fa fa-envelope"></i> <a href="mailto:shliu@stu.xmu.edu.cn">ShLiu</a>
 |
-<i class="fa fa-github"></i> <a href="http://github.com/lsforusual">jonahliu</a>
+<i class="fa fa-github"></i> <a href="http://github.com/shuayliu">Shuayliu</a>
 |
 <i class="fa fa-facebook"></i> <a href="http://facebook.com/shuayliou">Shuay Liou</a>
 |
 <i class="fa fa-wikipedia-w"></i> <a href="https://jonahliu.cf/wiki">Shuay's Wiki</a>
 </div>
+
 
 
 
@@ -25,7 +26,7 @@ Electrochemistry Ph.D student
 `Degree:` M. Phil,   
 `Religion:` Reformed,    
 `E-mail:` shliu{@}stu.xmu.edu.cn   
-`ORCID:` [0000-0002-6256-6208](https://orcid.org/0000-0002-6256-6208)  
+`ORCID:` <i class="ai ai-orcid"></i> [0000-0002-6256-6208](https://orcid.org/0000-0002-6256-6208)  
 `Address:` 
 		Room 439, Old Chemistry Building,  College of Chemistry and Chemical Engineering,  South Siming Road 422,  Xiamen,  Fujian, P.R. China. 
 
@@ -117,7 +118,7 @@ M. Li†, **S. Liu**†, L. Xie, J. Yan, C. Lagrost, S. Wang, G. Feng, P. Hapiot
 
 H. Zheng, Y. Lu, K.-H. Ye, J. Hu, **S. Liu**, J. Yan, Y. Ye, Y. Guo, Z. Lin, J. Cheng, Y. Cao, *Nat. Commun.* **2021**, *12*, 91. DOI: [10.1038/s41467-020-20341-7](https://doi.org/10.1038/s41467-020-20341-7)J. 
 
-Wu, R. Zhou, P. M. Radjenovic, **S. Liu**, D. Wu, J. Li, B. Mao, J. Yan, *Electrochim. Acta* **2021**, *390*, 138859. DOI: [10.1016/j.electacta.2021.138859](https://doi.org/10.1016/j.electacta.2021.138859)
+J. Wu, R. Zhou, P. M. Radjenovic, **S. Liu**, D. Wu, J. Li, B. Mao, J. Yan, *Electrochim. Acta* **2021**, *390*, 138859. DOI: [10.1016/j.electacta.2021.138859](https://doi.org/10.1016/j.electacta.2021.138859)
 
 `2020`
 
@@ -163,7 +164,7 @@ Probing Electrochemical Adsorption of Water on Au(111) in Ionic Liquids - A Comb
 
 `2017`
 
-AFM Force Curve Investigation on the Influence of Cation Side Alkyl Chain Length with Single Crystalline Electrode/Ionic Liquid Interfaces, *National Conference on Electrochemistry in China*,**Poster**, Shanghai, 2017.12.01-04.
+AFM Force Curve Investigation on the Influence of Cation Side Alkyl Chain Length with Single Crystalline Electrode/Ionic Liquid Interfaces, *National Conference on Electrochemistry in China*, **Poster**, Shanghai, 2017.12.01-04.
 
 
 
@@ -196,13 +197,13 @@ College English Test level 4(CET-4),  Spring 2013
 `2018-2021`
 Safety Officer of Laboratory.
 
-`Fall 2017`
-
-TA of undergraduate course *Physical Chemistry*
-
 `Fall 2018`
 
-TA of undergraduate course *Physical Chemistry*
+T.A. of undergraduate course *Physical Chemistry*
+
+`Fall 2017`
+
+T.A. of undergraduate course *Physical Chemistry*
 
 
 
@@ -255,6 +256,5 @@ Volunteer teaching, Zhangjianggang Yangling, 2012-2013.
 
 Available on request.
 
-<!-- ### Footer
+<!-- ### Footer Last updated: Sep 2021 -->
 
-Last updated: Sep 2021 -->
