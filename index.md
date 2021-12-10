@@ -104,7 +104,7 @@ Third Prize of *Chemistry Contest in Senior High Students*, Chinese Chemical Soc
 
 `2014`
 
-Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, Xuchang, summer 2014 
+Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, Xuchang, Summer 2014 
 
 ## ACADEMIC REFERENCES
 
@@ -113,6 +113,10 @@ Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, X
 <!-- ### Journals -->
 
 `2021`
+
+
+
+J. Wu, **S. Liu**, Z. Tan, Y. Guo, J. Zhou, B. Mao, J. Yan, *J. Chem. Phys.* **2021**, DOI:[10.1063/5.0073792](https://doi.org/10.1063/5.0073792)
 
 M. Li†, **S. Liu**†, L. Xie, J. Yan, C. Lagrost, S. Wang, G. Feng, P. Hapiot, B. Mao, *ChemElectroChem* **2021**, *8*, 983-990. († contribute equally) DOI: [10.1002/celc.202100094](https://doi.org/10.1002/celc.202100094).
 
@@ -148,7 +152,7 @@ Z. Li, H. Deng, Z. Gong, **S. Liu**, Y. Yang, Washing efficiency of Cd from cont
 ### Keynote
 
 `2021`
-国家重大研究项目年度总结会，武汉
+电极-聚电解质界面研究中的问题, 国家重大研究项目年度总结会, 口头报告, 湖北：武汉, 2021.05.23-25
 
 ### Conferences
 
