@@ -197,8 +197,22 @@ College English Test level 4(CET-4),  Spring 2013
 * C/C++(CCL ~~not GUI~~  a little in Qt5)
 * Boasting in nonsense.
 
+### Programming Projects
+
+`Python`
+
+<a href="//pypi.org/project/pyMetrohmAUTOLAB/">pyMetrohmAUTOLAB</a>
+
+<a href="//github.com/shuayliu/pyZfit">pyEIS, not original, fitting parts were modified from others </a>
+
+`C/C++`
+
+<a href="//github.com/shuayliu/CV_Simulation">CV Simulation</a>
+
+
 ## WORK
 `2018-2021`
+
 Safety Officer of Laboratory.
 
 `Fall 2018`
@@ -250,7 +264,7 @@ Volunteer teaching, Zhangjianggang Yangling, 2012-2013.
 
 <!-- fa are fontawesome, ai are academicons -->
 * <i class="fa fa-envelope"></i> <a href="mailto:shliu@stu.xmu.edu.cn">Email</a><br />
-* <i class="fa fa-github"></i> <a href="http://github.com/lsforusual">Github</a><br />
+* <i class="fa fa-github"></i> <a href="http://github.com/shuayliu">Github</a><br />
 * <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/jonahliu/">LinkedIn</a>
 * <i class="ai ai-orcid"></i> <a href="https://orcid.org/0000-0002-6256-6208">ORCiD</a>
 
