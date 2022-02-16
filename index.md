@@ -112,9 +112,11 @@ Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, X
 
 <!-- ### Journals -->
 
+`2022`
+
+Z. Tan, **S. Liu**, J. Wu, Z. Nan, F. Yang, D. Zhan, J. Yan, B. Mao, *ChemElectroChem* **2022**, e202101412. DOI:[10.1002/celc.202101412](https://doi.org/10.1002/celc.202101412) 
+
 `2021`
-
-
 
 J. Wu, **S. Liu**, Z. Tan, Y. Guo, J. Zhou, B. Mao, J. Yan, *J. Chem. Phys.* **2021**, DOI:[10.1063/5.0073792](https://doi.org/10.1063/5.0073792)
 
