@@ -56,6 +56,8 @@ B.Sc., *Northwest A&F University*
 
 `2021`
 
+*Visiting Ph.D. Scholarship*, China Scholarship Council(CSC)
+
 *ICBC Scholarship*, XMU
 
 `2020`
@@ -76,6 +78,10 @@ B.Sc., *Northwest A&F University*
 
 ### Contests
 
+`2021`
+
+*Metrohm® China Innovation Red Dot Award*, 2021.
+
 `2014`
 
 Second Prize of ShannXi undergraduate group in *Mathematical Contest in Modeling(MCM)*, 2014.
@@ -93,6 +99,10 @@ Third Prize of *Applied Math Contest in undergraduates*(non-professional), 2013.
 Third Prize of *Chemistry Contest in Senior High Students*, Chinese Chemical Society, 2009.
 
 ## RESEARCH EXPERIENCE
+
+`2022.4-`
+
+**[Philippe Hapiot's](https://iscr.univ-rennes1.fr/philippe-hapiot) research group, Institut des Sciences Chimiques de Rennes - UMR CNRS 6226, *Universite de Rennes 1*.  2022.4-present**
 
 `2016-`
 
@@ -114,17 +124,19 @@ Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, X
 
 `2022`
 
-Z. Tan, **S. Liu**, J. Wu, Z. Nan, F. Yang, D. Zhan, J. Yan, B. Mao, *ChemElectroChem* **2022**, e202101412. DOI:[10.1002/celc.202101412](https://doi.org/10.1002/celc.202101412) 
+**S. Liu**, Z. Tan, J. Wu, B. Mao, J. Yan, *Electrochem. Sci. Adv* **2022**, *00*, e2100199. DOI:[10.1002/elsa.202100199](https://oi.org/10.1002/elsa.202100199).  
+
+Z. Tan, **S. Liu**, J. Wu, Z. Nan, F. Yang, D. Zhan, J. Yan, B. Mao, *ChemElectroChem* **2022**, *9*, e202101412. DOI:[10.1002/celc.202101412](https://doi.org/10.1002/celc.202101412). 
 
 `2021`
 
-J. Wu, **S. Liu**, Z. Tan, Y. Guo, J. Zhou, B. Mao, J. Yan, *J. Chem. Phys.* **2021**, DOI:[10.1063/5.0073792](https://doi.org/10.1063/5.0073792)
+J. Wu, **S. Liu**, Z. Tan, Y. Guo, J. Zhou, B. Mao, J. Yan, *J. Chem. Phys.* **2021**, *155*, 244702. DOI:[10.1063/5.0073792](https://doi.org/10.1063/5.0073792).
 
 M. Li†, **S. Liu**†, L. Xie, J. Yan, C. Lagrost, S. Wang, G. Feng, P. Hapiot, B. Mao, *ChemElectroChem* **2021**, *8*, 983-990. († contribute equally) DOI: [10.1002/celc.202100094](https://doi.org/10.1002/celc.202100094).
 
-H. Zheng, Y. Lu, K.-H. Ye, J. Hu, **S. Liu**, J. Yan, Y. Ye, Y. Guo, Z. Lin, J. Cheng, Y. Cao, *Nat. Commun.* **2021**, *12*, 91. DOI: [10.1038/s41467-020-20341-7](https://doi.org/10.1038/s41467-020-20341-7)J. 
+H. Zheng, Y. Lu, K.-H. Ye, J. Hu, **S. Liu**, J. Yan, Y. Ye, Y. Guo, Z. Lin, J. Cheng, Y. Cao, *Nat. Commun.* **2021**, *12*, 91. DOI: [10.1038/s41467-020-20341-7](https://doi.org/10.1038/s41467-020-20341-7). 
 
-J. Wu, R. Zhou, P. M. Radjenovic, **S. Liu**, D. Wu, J. Li, B. Mao, J. Yan, *Electrochim. Acta* **2021**, *390*, 138859. DOI: [10.1016/j.electacta.2021.138859](https://doi.org/10.1016/j.electacta.2021.138859)
+J. Wu, R. Zhou, P. M. Radjenovic, **S. Liu**, D. Wu, J. Li, B. Mao, J. Yan, *Electrochim. Acta* **2021**, *390*, 138859. DOI: [10.1016/j.electacta.2021.138859](https://doi.org/10.1016/j.electacta.2021.138859).
 
 `2020`
 
@@ -134,21 +146,21 @@ J. Wu, R. Zhou, P. M. Radjenovic, **S. Liu**, D. Wu, J. Li, B. Mao, J. Yan, *Ele
 
 **S. Liu**†, J. Peng†, L. Chen, P. Sebastián, J. M. Feliu, J. Yan, B. Mao, *Electrochim. Acta* **2019**, *309*, 11-17. († contribute equally) DOI: [10.1016/j.electacta.2019.04.066](https://doi.org/10.1016/j.electacta.2019.04.066).
 
-J. Bai, A. Daaoub, S. Sangtarash, X. Li, Y. Tang, Q. Zou, H. Sadeghi, **S. Liu**, X. Huang, Z. Tan, J. Liu, Y. Yang, J. Shi, G. Mészáros, W. Chen, C. Lambert, W. Hong, *Nat. Mater.* **2019**, *18*, 364-369.  DOI: [10.1038/s41563-018-0265-4](https://doi.org/10.1038/s41563-018-0265-4)
+J. Bai, A. Daaoub, S. Sangtarash, X. Li, Y. Tang, Q. Zou, H. Sadeghi, **S. Liu**, X. Huang, Z. Tan, J. Liu, Y. Yang, J. Shi, G. Mészáros, W. Chen, C. Lambert, W. Hong, *Nat. Mater.* **2019**, *18*, 364-369.  DOI: [10.1038/s41563-018-0265-4](https://doi.org/10.1038/s41563-018-0265-4).
 
 `2018`
 
 S. Bi, R. Wang, **S. Liu**, J. Yan, B. Mao, A. A. Kornyshev, G. Feng, *Nat. Commun.* **2018**, *9*, 1-9. DOI:[10.1038/s41467-018-07674-0](https://doi.org/10.1038/s41467-018-07674-0).
 
-L. Chen, **S. Liu**, M, Li, J. Su, J. Yan, B. Mao,  An Investigation on the Structure of Au(111)/Imidazolium-Based Ionic Liquid Interface: Effect of Alkyl Side Chain Length. *Journal of Electrochemistry*, 2018.10,  DOI:[10.13208/j.electrochem.180148 ](http://electrochem.xmu.edu.cn/CN/10.13208/j.electrochem.180148)<br>
+L. Chen, **S. Liu**, M, Li, J. Su, J. Yan, B. Mao,  An Investigation on the Structure of Au(111)/Imidazolium-Based Ionic Liquid Interface: Effect of Alkyl Side Chain Length. *Journal of Electrochemistry*, **2018**, *24(05)*, 511-516. DOI:[10.13208/j.electrochem.180148 ](http://electrochem.xmu.edu.cn/CN/10.13208/j.electrochem.180148)<br>
 陈莉,**刘帅**,李棉刚,苏建加,颜佳伟,毛秉伟. Au(111)/咪唑基离子液体界面结构研究：阳离子侧链长度的影响[J]. 电化学, 2018, 24(05): 511-516.	
 
-Z. Li, H. Deng, Z. Gong, **S. Liu**, Y. Yang, Washing efficiency of Cd from contaminated Lou soil by saponin and low-molecular-weight organic acid, *Journal of Northwest A & F University(Natural Science Edition)*,  2018.05, DOI: [10.13207/j.cnki.jnwafu.2018.05.012](http://doi.org/10.13207/j.cnki.jnwafu.2018.05.012).<br>
+Z. Li, H. Deng, Z. Gong, **S. Liu**, Y. Yang, Washing efficiency of Cd from contaminated Lou soil by saponin and low-molecular-weight organic acid, *Journal of Northwest A & F University(Natural Science Edition)*, **2018**, *05*, 85-93. DOI: [10.13207/j.cnki.jnwafu.2018.05.012](http://doi.org/10.13207/j.cnki.jnwafu.2018.05.012).<br>
 李珍,邓红侠,龚正清,**刘帅**,杨亚提.皂苷和小分子有机酸对污染土娄土中Cd的淋洗效果[J].西北农林科技大学学报(自然科学版),2018(05):85-93+100.
 
 `2016`
 
-**S. Liu**, H. Yan, Z. Li, Y. Yang, H. Deng, Study on the leaching remediation of phenol form contaminated Lou soil by two biosurfactants, *Environmental Pollution & Control*, 2016.04, DOI:[10.15985/j.cnki.1001-3865.2016.04.014](http://doi.org/10.15985/j.cnki.1001-3865.2016.04.014).<br>
+**S. Liu**, H. Yan, Z. Li, Y. Yang, H. Deng, Study on the leaching remediation of phenol form contaminated Lou soil by two biosurfactants, *Environmental Pollution & Control*, **2016**, *38(04)*, 70-77. DOI:[10.15985/j.cnki.1001-3865.2016.04.014](http://doi.org/10.15985/j.cnki.1001-3865.2016.04.014).<br>
 **刘帅**,闫海婷,李珍,杨亚提,邓红侠.两种生物表面活性剂对污染塿土中苯酚的淋洗修复研究[J].环境污染与防治,2016,38(04):70-77.
 
 ### Keynote
