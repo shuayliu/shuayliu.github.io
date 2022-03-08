@@ -56,6 +56,8 @@ B.Sc., *Northwest A&F University*
 
 `2021`
 
+*Visiting Ph.D. Scholarship*, China Scholarship Council(CSC)
+
 *ICBC Scholarship*, XMU
 
 `2020`
@@ -76,6 +78,10 @@ B.Sc., *Northwest A&F University*
 
 ### Contests
 
+`2021`
+
+*Metrohm® China Innovation Red Dot Award*, 2021.
+
 `2014`
 
 Second Prize of ShannXi undergraduate group in *Mathematical Contest in Modeling(MCM)*, 2014.
@@ -93,6 +99,10 @@ Third Prize of *Applied Math Contest in undergraduates*(non-professional), 2013.
 Third Prize of *Chemistry Contest in Senior High Students*, Chinese Chemical Society, 2009.
 
 ## RESEARCH EXPERIENCE
+
+`2022.4-`
+
+**[Philippe Hapiot's](https://iscr.univ-rennes1.fr/philippe-hapiot) research group, Institut des Sciences Chimiques de Rennes - UMR CNRS 6226, *Universite de Rennes 1*.  2022.4-present**
 
 `2016-`
 
@@ -114,17 +124,17 @@ Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, X
 
 `2022`
 
-Z. Tan, **S. Liu**, J. Wu, Z. Nan, F. Yang, D. Zhan, J. Yan, B. Mao, *ChemElectroChem* **2022**, e202101412. DOI:[10.1002/celc.202101412](https://doi.org/10.1002/celc.202101412) 
+Z. Tan, **S. Liu**, J. Wu, Z. Nan, F. Yang, D. Zhan, J. Yan, B. Mao, *ChemElectroChem* **2022**,  *9*, e202101412. DOI:[10.1002/celc.202101412](https://doi.org/10.1002/celc.202101412). 
 
 `2021`
 
-J. Wu, **S. Liu**, Z. Tan, Y. Guo, J. Zhou, B. Mao, J. Yan, *J. Chem. Phys.* **2021**, DOI:[10.1063/5.0073792](https://doi.org/10.1063/5.0073792)
+J. Wu, **S. Liu**, Z. Tan, Y. Guo, J. Zhou, B. Mao, J. Yan, *J. Chem. Phys.* **2021**, DOI:[10.1063/5.0073792](https://doi.org/10.1063/5.0073792).
 
 M. Li†, **S. Liu**†, L. Xie, J. Yan, C. Lagrost, S. Wang, G. Feng, P. Hapiot, B. Mao, *ChemElectroChem* **2021**, *8*, 983-990. († contribute equally) DOI: [10.1002/celc.202100094](https://doi.org/10.1002/celc.202100094).
 
-H. Zheng, Y. Lu, K.-H. Ye, J. Hu, **S. Liu**, J. Yan, Y. Ye, Y. Guo, Z. Lin, J. Cheng, Y. Cao, *Nat. Commun.* **2021**, *12*, 91. DOI: [10.1038/s41467-020-20341-7](https://doi.org/10.1038/s41467-020-20341-7)J. 
+H. Zheng, Y. Lu, K.-H. Ye, J. Hu, **S. Liu**, J. Yan, Y. Ye, Y. Guo, Z. Lin, J. Cheng, Y. Cao, *Nat. Commun.* **2021**, *12*, 91. DOI: [10.1038/s41467-020-20341-7](https://doi.org/10.1038/s41467-020-20341-7). 
 
-J. Wu, R. Zhou, P. M. Radjenovic, **S. Liu**, D. Wu, J. Li, B. Mao, J. Yan, *Electrochim. Acta* **2021**, *390*, 138859. DOI: [10.1016/j.electacta.2021.138859](https://doi.org/10.1016/j.electacta.2021.138859)
+J. Wu, R. Zhou, P. M. Radjenovic, **S. Liu**, D. Wu, J. Li, B. Mao, J. Yan, *Electrochim. Acta* **2021**, *390*, 138859. DOI: [10.1016/j.electacta.2021.138859](https://doi.org/10.1016/j.electacta.2021.138859).
 
 `2020`
 
@@ -134,7 +144,7 @@ J. Wu, R. Zhou, P. M. Radjenovic, **S. Liu**, D. Wu, J. Li, B. Mao, J. Yan, *Ele
 
 **S. Liu**†, J. Peng†, L. Chen, P. Sebastián, J. M. Feliu, J. Yan, B. Mao, *Electrochim. Acta* **2019**, *309*, 11-17. († contribute equally) DOI: [10.1016/j.electacta.2019.04.066](https://doi.org/10.1016/j.electacta.2019.04.066).
 
-J. Bai, A. Daaoub, S. Sangtarash, X. Li, Y. Tang, Q. Zou, H. Sadeghi, **S. Liu**, X. Huang, Z. Tan, J. Liu, Y. Yang, J. Shi, G. Mészáros, W. Chen, C. Lambert, W. Hong, *Nat. Mater.* **2019**, *18*, 364-369.  DOI: [10.1038/s41563-018-0265-4](https://doi.org/10.1038/s41563-018-0265-4)
+J. Bai, A. Daaoub, S. Sangtarash, X. Li, Y. Tang, Q. Zou, H. Sadeghi, **S. Liu**, X. Huang, Z. Tan, J. Liu, Y. Yang, J. Shi, G. Mészáros, W. Chen, C. Lambert, W. Hong, *Nat. Mater.* **2019**, *18*, 364-369.  DOI: [10.1038/s41563-018-0265-4](https://doi.org/10.1038/s41563-018-0265-4).
 
 `2018`
 
