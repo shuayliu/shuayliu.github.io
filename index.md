@@ -102,7 +102,7 @@ Third Prize of *Chemistry Contest in Senior High Students*, Chinese Chemical Soc
 
 `2022.4-`
 
-**[Philippe Hapiot's](https://iscr.univ-rennes1.fr/philippe-hapiot) research group, Institut des Sciences Chimiques de Rennes - UMR CNRS 6226, *Universite de Rennes 1*.  2022.4-present**
+**[Philippe Hapiot's](https://iscr.univ-rennes1.fr/philippe-hapiot) research group, Institut des Sciences Chimiques de Rennes - UMR CNRS 6226, *Universite de Rennes 1* (joint supported by CSC and China-France International Research Project "NanoBioCatEchem").  2022.4-present**
 
 `2016-`
 
@@ -124,7 +124,7 @@ Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, X
 
 `2022`
 
-**S. Liu**, Z. Tan, J. Wu, B. Mao, J. Yan, *Electrochem. Sci. Adv* **2022**, *00*, e2100199. DOI:[10.1002/elsa.202100199](https://oi.org/10.1002/elsa.202100199).  
+**S. Liu**, Z. Tan, J. Wu, B. Mao, J. Yan, *Electrochem. Sci. Adv* **2022**, *00*, e2100199. DOI:[10.1002/elsa.202100199](https://doi.org/10.1002/elsa.202100199).  
 
 Z. Tan, **S. Liu**, J. Wu, Z. Nan, F. Yang, D. Zhan, J. Yan, B. Mao, *ChemElectroChem* **2022**, *9*, e202101412. DOI:[10.1002/celc.202101412](https://doi.org/10.1002/celc.202101412). 
 
