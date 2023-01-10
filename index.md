@@ -14,8 +14,9 @@ Electrochemistry Ph.D student
 |
 <i class="fa fa-wikipedia-w"></i> <a href="https://jonahliu.cf/wiki">Shuay's Wiki</a>
 |
-<i class="fa fa-coffee"></i> <a href='https://ko-fi.com/S6S2HF836' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<i class="fa fa-coffee"></i> <a href='https://ko-fi.com/S6S2HF836' target='_blank'><img height='24' style='border:0px;height:24px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </div>
+
 
 
 
@@ -302,3 +303,4 @@ Available on request.
     'floating-chat.donateButton.background-color': '#323842',
     'floating-chat.donateButton.text-color': '#fff'
   });
+
