@@ -103,13 +103,13 @@ Third Prize of *Chemistry Contest in Senior High Students*, Chinese Chemical Soc
 
 ## RESEARCH EXPERIENCE
 
-`2022.4-`
-
-**[Philippe Hapiot's](https://iscr.univ-rennes1.fr/philippe-hapiot) research group, Institut des Sciences Chimiques de Rennes - UMR CNRS 6226, *Universite de Rennes 1* (joint supported by CSC and China-France International Research Project "NanoBioCatEchem").  2022.4-present**
-
 `2016-`
 
 **[BW Mao's](http://stm.xmu.edu.cn) research group, department of chemistry, *Xiamen University*.   2016-present** 
+
+`2022.4-2023.9`
+
+[Philippe Hapiot's](https://iscr.univ-rennes1.fr/philippe-hapiot) research group, Institut des Sciences Chimiques de Rennes - UMR CNRS 6226, *Universite de Rennes 1* (joint supported by CSC and China-France International Research Project "NanoBioCatEchem").  2022.4-2023.6
 
 `2013-2016`
 
@@ -175,15 +175,19 @@ Z. Li, H. Deng, Z. Gong, **S. Liu**, Y. Yang, Washing efficiency of Cd from cont
 
 ### Conferences
 
+`2023`
+
+Redox Catalysis of Oxygen Reduction in Imidazolium Ionic Liquids - A Fast and Efficient Process, *74th ISE Annual Meeting*, **Oral**, Lyon, France, 2023.09.03-08.(joint supported by CNRS of France and Special Funding for Ph.D. of the Graduate School of Xiamen Univ.)
+
 `2021`
 
 AFM技术揭示水诱导云母/离子液体界面结构转变(Reveal the water induced ionic ionic liquid-mica interaction switches by AFM), *厦门大学第四届博士研究生学术论坛(The 4th Ph.D. Academic Forum of Xiamen University)*，**Poster**, Xiamen, 2021.10.16
 
-Probing Electrochemical Adsorption of Water on Au(111) in Ionic Liquids - A Combined in situ Atomic Force Microscopy and Impedance Study, *ISE 2021*, **Poster**, Jeju, Korea(Online), 2021.08.30-09.03.
+Probing Electrochemical Adsorption of Water on Au(111) in Ionic Liquids - A Combined in situ Atomic Force Microscopy and Impedance Study, *73th ISE Annual Meeting*, **Poster**, Jeju, Korea(Online), 2021.08.30-09.03.
 
 `2019`
 
-水诱导离子液体/云母界面相互作用转变(Water induced ionic liquid-mica interaction switches), *SPM 2019*, **Poster**, Hefei, 2019.09.25~28.
+水诱导离子液体/云母界面相互作用转变(Water induced ionic liquid-mica interaction switches), *SPM 2019*, **Poster**, Hefei, 2019.09.25-28.
 
 `2017`
 
@@ -303,4 +307,3 @@ Available on request.
     'floating-chat.donateButton.background-color': '#323842',
     'floating-chat.donateButton.text-color': '#fff'
   });
-
