@@ -1,8 +1,6 @@
 ---
 layout: cv
 title: Shuay Liu's CV
-sitemap: false
-permalink: /cv.html
 ---
 # Shuay Liu
 Electrochemistry Ph.D student
@@ -14,10 +12,10 @@ Electrochemistry Ph.D student
 |
 <i class="fa fa-facebook"></i> <a href="http://facebook.com/shuayliou">Shuay Liou</a>
 |
-<i class="fa fa-wikipedia-w"></i> <a href="https://jonahliu.cf/wiki">Shuay's Wiki</a>
+<i class="fa fa-wikipedia-w"></i> <a href="https://wiki.shuay.cn/">Shuay's Wiki</a>
+|
+<i class="fa fa-coffee"></i> <a href='https://ko-fi.com/S6S2HF836' target='_blank'><img height='24' style='border:0px;height:24px;' src='../images/kofi2.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </div>
-
-
 
 
 
@@ -102,13 +100,13 @@ Third Prize of *Chemistry Contest in Senior High Students*, Chinese Chemical Soc
 
 ## RESEARCH EXPERIENCE
 
-`2022.4-`
-
-**[Philippe Hapiot's](https://iscr.univ-rennes1.fr/philippe-hapiot) research group, Institut des Sciences Chimiques de Rennes - UMR CNRS 6226, *Universite de Rennes 1* (joint supported by CSC and China-France International Research Project "NanoBioCatEchem").  2022.4-present**
-
 `2016-`
 
 **[BW Mao's](http://stm.xmu.edu.cn) research group, department of chemistry, *Xiamen University*.   2016-present** 
+
+`2022.4-2023.9`
+
+[Philippe Hapiot's](https://iscr.univ-rennes1.fr/philippe-hapiot) research group, Institut des Sciences Chimiques de Rennes - UMR CNRS 6226, *Universite de Rennes 1* (joint supported by CSC and China-France International Research Project "NanoBioCatEchem").  2022.4-2023.6
 
 `2013-2016`
 
@@ -123,8 +121,13 @@ Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, X
 ### Selected Publications
 
 <!-- ### Journals -->
+`2023`
+
+**S. Liu**, G. Pignol, C. Lagrost, B. Mao, J. Yan, P. Hapiot, *ChemElectroChem* **2024**, *11*, e202300658. DOI:[10.1002/celc.202300658](https://doi.org/10.1002/celc.202300658).
 
 `2022`
+
+C. Li, M. Chen, **S. Liu**, X. Lu, J. Meng, J. Yan, H. Abruña, G. Feng, T. Lian, *Nat. Commun.* **2022**, *13*, 5330. DOI: [10.1038/s41467-022-33129-8](https://doi.org/10.1038/s41467-022-33129-8). 
 
 **S. Liu**, Z. Tan, J. Wu, B. Mao, J. Yan, *Electrochem. Sci. Adv* **2022**, *00*, e2100199. DOI:[10.1002/elsa.202100199](https://doi.org/10.1002/elsa.202100199).  
 
@@ -172,15 +175,19 @@ Z. Li, H. Deng, Z. Gong, **S. Liu**, Y. Yang, Washing efficiency of Cd from cont
 
 ### Conferences
 
+`2023`
+
+Redox Catalysis of Oxygen Reduction in Imidazolium Ionic Liquids - A Fast and Efficient Process, *74th ISE Annual Meeting*, **Oral**, Lyon, France, 2023.09.03-08.(joint supported by CNRS of France and Special Funding for Ph.D. of the Graduate School of Xiamen Univ.)
+
 `2021`
 
 AFM技术揭示水诱导云母/离子液体界面结构转变(Reveal the water induced ionic ionic liquid-mica interaction switches by AFM), *厦门大学第四届博士研究生学术论坛(The 4th Ph.D. Academic Forum of Xiamen University)*，**Poster**, Xiamen, 2021.10.16
 
-Probing Electrochemical Adsorption of Water on Au(111) in Ionic Liquids - A Combined in situ Atomic Force Microscopy and Impedance Study, *ISE 2021*, **Poster**, Jeju, Korea(Online), 2021.08.30-09.03.
+Probing Electrochemical Adsorption of Water on Au(111) in Ionic Liquids - A Combined in situ Atomic Force Microscopy and Impedance Study, *73th ISE Annual Meeting*, **Poster**, Jeju, Korea(Online), 2021.08.30-09.03.
 
 `2019`
 
-水诱导离子液体/云母界面相互作用转变(Water induced ionic liquid-mica interaction switches), *SPM 2019*, **Poster**, Hefei, 2019.09.25~28.
+水诱导离子液体/云母界面相互作用转变(Water induced ionic liquid-mica interaction switches), *SPM 2019*, **Poster**, Hefei, 2019.09.25-28.
 
 `2017`
 

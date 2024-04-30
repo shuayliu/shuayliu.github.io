@@ -12,9 +12,9 @@ Electrochemistry Ph.D student
 |
 <i class="fa fa-facebook"></i> <a href="http://facebook.com/shuayliou">Shuay Liou</a>
 |
-<i class="fa fa-wikipedia-w"></i> <a href="https://jonahliu.cf/wiki">Shuay's Wiki</a>
+<i class="fa fa-wikipedia-w"></i> <a href="https://wiki.shuay.cn/">Shuay's Wiki</a>
 |
-<i class="fa fa-coffee"></i> <a href='https://ko-fi.com/S6S2HF836' target='_blank'><img height='24' style='border:0px;height:24px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<i class="fa fa-coffee"></i> <a href='https://ko-fi.com/S6S2HF836' target='_blank'><img height='24' style='border:0px;height:24px;' src='./images/kofi2.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </div>
 
 
@@ -301,12 +301,3 @@ Volunteer teaching, Zhangjianggang Yangling, 2012-2013.
 Available on request.
 
 <!-- ### Footer Last updated: Sep 2021 -->
-
-<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js' type="0ad717eca659b42e402876bd-text/javascript"></script>
-<script type="0ad717eca659b42e402876bd-text/javascript">
-  kofiWidgetOverlay.draw('shuayliu', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#323842',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
