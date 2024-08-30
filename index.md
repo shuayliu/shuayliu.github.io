@@ -3,7 +3,7 @@ layout: cv
 title: Shuay Liu's CV
 ---
 # Shuay Liu
-Electrochemistry Ph.D student
+Electrochemistry Ph.D
 
 <div id="webaddress">
 <i class="fa fa-envelope"></i> <a href="mailto:shliu@stu.xmu.edu.cn">ShLiu</a>
@@ -35,9 +35,9 @@ Electrochemistry Ph.D student
 
 ## EDUCATION
 
-**`2019-`**
+**`2019-2024`**
 
-**For Ph.D, *Xiamen University*** 
+Ph.D, *Xiamen University*
 
 `2016-2019`
 
@@ -220,7 +220,7 @@ College English Test level 4(CET-4),  Spring 2013
 * AFM Force Curves,
 * STM Topography,
 * Python, 
-* C/C++(CCL ~~not GUI~~  a little in Qt5)
+* C/C++(CCL ~~not GUI~~  a little in Qt5),
 * Boasting in nonsense.
 
 ### Programming Projects
@@ -300,4 +300,4 @@ Volunteer teaching, Zhangjianggang Yangling, 2012-2013.
 
 Available on request.
 
-<!-- ### Footer Last updated: Sep 2021 -->
+<!-- ### Footer Last updated: Sep 2024 -->
