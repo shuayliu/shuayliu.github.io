@@ -124,6 +124,13 @@ Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, X
 ### Selected Publications
 
 <!-- ### Journals -->
+`2025`
+
+**S. Liu**, G. Pignol, C. Lagrost, B. Mao, J. Yan, P. Hapiot, *ACS Electrochemistry* **2025**, *00*, 000000. DOI:[10.1021/acselectrochem.5c00035](https://doi.org/10.1021/acselectrochem.5c00035)
+
+**S. Liu**, G. Pignol, C. Lagrost, B. Mao, P. Hapiot, J. Yan, *Current Opinion in Electrochemistry* **2025**, *51*, 101667. DOI:[10.1016/j.coelec.2025.101667](https://doi.org/10.1016/j.coelec.2025.101667)
+
+
 `2023`
 
 **S. Liu**, G. Pignol, C. Lagrost, B. Mao, J. Yan, P. Hapiot, *ChemElectroChem* **2024**, *11*, e202300658. DOI:[10.1002/celc.202300658](https://doi.org/10.1002/celc.202300658).
