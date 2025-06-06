@@ -3,7 +3,7 @@ layout: cv
 title: Shuay Liu's CV
 ---
 # Shuay Liu
-Electrochemistry Ph.D
+Post Doc. in Electrochemistry
 
 <div id="webaddress">
 <i class="fa fa-envelope"></i> <a href="mailto:shliu@stu.xmu.edu.cn">ShLiu</a>
@@ -125,6 +125,8 @@ Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, X
 
 <!-- ### Journals -->
 `2025`
+
+K. Li†, **S. Liu**†; T. Wang, B. Mao, J. Yan , *Chem. Commun* **2025**, *61*, 7498-7501. DOI:[10.1039/D5CC01413A](https://doi.org/10.1039/D5CC01413A) 
 
 **S. Liu**, G. Pignol, C. Lagrost, B. Mao, J. Yan, P. Hapiot, *ACS Electrochemistry* **2025**, *00*, 000000. DOI:[10.1021/acselectrochem.5c00035](https://doi.org/10.1021/acselectrochem.5c00035)
 
