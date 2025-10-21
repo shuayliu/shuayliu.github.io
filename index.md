@@ -126,7 +126,9 @@ Practice in the *Tobacco Institute of Henan Academy of Agricultural Sciences*, X
 <!-- ### Journals -->
 `2025`
 
-K. Li†, **S. Liu**†; T. Wang, B. Mao, J. Yan , *Chem. Commun* **2025**, *61*, 7498-7501. DOI:[10.1039/D5CC01413A](https://doi.org/10.1039/D5CC01413A) 
+G. Pignol, **S. Liu**, S. Chevance, P. Hapiot, *ACS Electrochemistry* **2025**, *00*, 000000. DOI:[10.1021/acselectrochem.5c00255](https://pubs.acs.org/doi/10.1021/acselectrochem.5c00255)
+
+K. Li†, **S. Liu**†, T. Wang, B. Mao, J. Yan , *Chem. Commun* **2025**, *61*, 7498-7501. DOI:[10.1039/D5CC01413A](https://doi.org/10.1039/D5CC01413A) 
 
 **S. Liu**, G. Pignol, C. Lagrost, B. Mao, J. Yan, P. Hapiot, *ACS Electrochemistry* **2025**, *00*, 000000. DOI:[10.1021/acselectrochem.5c00035](https://doi.org/10.1021/acselectrochem.5c00035)
 
@@ -187,6 +189,10 @@ Z. Li, H. Deng, Z. Gong, **S. Liu**, Y. Yang, Washing efficiency of Cd from cont
 
 ### Conferences
 
+`2024`
+
+咪唑类离子液体中甲基紫精对氧还原的氧化还原催化研究(Study of Redox Catalysis of Oxygen Reduction in Imidazolium Ionic Liquids), *22nd National Electrochemistry Congress*, **Oral**, Haikou, 2024.11.05-08.
+
 `2023`
 
 Redox Catalysis of Oxygen Reduction in Imidazolium Ionic Liquids - A Fast and Efficient Process, *74th ISE Annual Meeting*, **Oral**, Lyon, France, 2023.09.03-08.(joint supported by CNRS of France and Special Funding for Ph.D. of the Graduate School of Xiamen Univ.)
@@ -203,7 +209,7 @@ Probing Electrochemical Adsorption of Water on Au(111) in Ionic Liquids - A Comb
 
 `2017`
 
-AFM Force Curve Investigation on the Influence of Cation Side Alkyl Chain Length with Single Crystalline Electrode/Ionic Liquid Interfaces, *National Conference on Electrochemistry in China*, **Poster**, Shanghai, 2017.12.01-04.
+AFM Force Curve Investigation on the Influence of Cation Side Alkyl Chain Length with Single Crystalline Electrode/Ionic Liquid Interfaces, *19th National Electrochemistry Congress*, **Poster**, Shanghai, 2017.12.01-04.
 
 
 
