@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ORCID Publication Sync — Browser Edition</title>
+<style>
+  :root { --accent:#2563eb; --bg:#f8fafc; --card:#fff; --text:#1e293b; }
+  * { box-sizing:border-box; }
+  body { font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); max-width:960px; margin:0 auto; padding:2rem; line-height:1.6; }
+  h1 { font-size:1.5rem; margin-bottom:.25rem; }
+  .subtitle { color:#64748b; font-size:.9rem; margin-bottom:1.5rem; }
+  .card { background:var(--card); border:1px solid #e2e8f0; border-radius:.75rem; padding:1.25rem; margin-bottom:1rem; box-shadow:0 1px 2px rgba(0,0,0,.04); }
+  label { display:block; font-weight:600; margin-bottom:.35rem; font-size:.9rem; }
+  input[type="text"] { width:100%; padding:.55rem .75rem; border:1px solid #cbd5e1; border-radius:.5rem; font-size:.95rem; }
+  .row { display:flex; gap:.75rem; align-items:flex-end; margin-bottom:1rem; }
+  .row input { flex:1; }
+  button { background:var(--accent); color:#fff; border:none; padding:.6rem 1.2rem; border-radius:.5rem; font-size:.95rem; cursor:pointer; }
+  button:disabled { opacity:.6; cursor:not-allowed; }
+  button.secondary { background:#334155; }
+  .status { font-size:.9rem; color:#475569; min-height:1.5rem; margin-bottom:.5rem; }
+  .status.ok { color:#15803d; }
+  .status.warn { color:#b45309; }
+  .status.err { color:#be123c; }
+  textarea { width:100%; min-height:280px; font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace; font-size:.85rem; line-height:1.5; padding:.75rem; border:1px solid #cbd5e1; border-radius:.5rem; resize:vertical; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+  @media (max-width:720px){ .grid { grid-template-columns:1fr; } }
+  .copybar { display:flex; justify-content:space-between; align-items:center; margin-bottom:.35rem; }
+  .copybar span { font-weight:600; font-size:.9rem; }
+  .copybar button { padding:.35rem .7rem; font-size:.8rem; }
+  .note { font-size:.8rem; color:#64748b; margin-top:.5rem; }
+  .count { font-size:.8rem; color:#64748b; text-align:right; margin-top:.25rem; }
+</style>
+</head>
+<body>
+
+<h1>ORCID Publication Sync</h1>
+<p class="subtitle">纯浏览器版 — 无需后端。内置中文文章保留，打开即用。</p>
+
+<div class="card">
+  <div class="row">
+    <div style="flex:1;">
+      <label for="orcid">ORCID ID</label>
+      <input type="text" id="orcid" value="0000-0002-6256-6208" placeholder="0000-0002-6256-6208">
+    </div>
+    <button id="btnSync" onclick="startSync()">开始同步</button>
+  </div>
+  <div class="status" id="status">点击「开始同步」拉取最新数据…</div>
+  <div class="note">
+    提示：Crossref API 有速率限制，默认每条 DOI 间隔 1 秒。若遇 429 错误，请稍后再试。
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <div class="copybar">
+      <span>publicationlist.md</span>
+      <button class="secondary" onclick="copyOut('md')">复制</button>
+    </div>
+    <textarea id="md" readonly placeholder="Markdown 将生成在这里…"></textarea>
+    <div class="count" id="mdCount"></div>
+  </div>
+  <div class="card">
+    <div class="copybar">
+      <span>publications.bib</span>
+      <button class="secondary" onclick="copyOut('bib')">复制</button>
+    </div>
+    <textarea id="bib" readonly placeholder="BibTeX 将生成在这里…"></textarea>
+    <div class="count" id="bibCount"></div>
+  </div>
+</div>
+
+<script>
+/* ========================= 内置：不在 ORCID 上的中文文章 ========================= */
+const EXTRA_PUBS = [
+  {
+    year: "2018",
+    authors: ["L. Chen", "**S. Liu**", "M. Li", "J. Su", "J. Yan", "B. Mao"],
+    title: "An Investigation on the Structure of Au(111)/Imidazolium-Based Ionic Liquid Interface: Effect of Alkyl Side Chain Length",
+    journal: "J. Electrochem.",
+    journal_year: "2018",
+    volume: "24(05)",
+    page: "511–516",
+    doi: "10.13208/j.electrochem.180148",
+    url: "http://electrochem.xmu.edu.cn/CN/10.13208/j.electrochem.180148",
+  },
+  {
+    year: "2018",
+    authors: ["Z. Li", "H. Deng", "Z. Gong", "**S. Liu**", "Y. Yang"],
+    title: "Washing efficiency of Cd from contaminated Lou soil by saponin and low-molecular-weight organic acid",
+    journal: "J. Northwest A & F Univ. (Nat. Sci. Ed.)",
+    journal_year: "2018",
+    volume: "05",
+    page: "85–93",
+    doi: "10.13207/j.cnki.jnwafu.2018.05.012",
+    url: "http://doi.org/10.13207/j.cnki.jnwafu.2018.05.012",
+  },
+  {
+    year: "2016",
+    authors: ["**S. Liu**", "H. Yan", "Z. Li", "Y. Yang", "H. Deng"],
+    title: "Study on the leaching remediation of phenol from contaminated Lou soil by two biosurfactants",
+    journal: "Environ. Pollut. Control",
+    journal_year: "2016",
+    volume: "38(04)",
+    page: "70–77",
+    doi: "10.15985/j.cnki.1001-3865.2016.04.014",
+    url: "http://doi.org/10.15985/j.cnki.1001-3865.2016.04.014",
+  },
+];
+
+/* ========================= 配置 ========================= */
+const ORCID_API = orcid => `https://pub.orcid.org/v3.0/${orcid}/works`;
+const CROSSREF_API = doi => `https://api.crossref.org/works/${doi}`;
+const DELAY_MS = 1000;
+const SELF_RE = /\b(Shuai\s+Liu|S\.\s*Liu|Liu,\s*S\.|Liu,\s*Shuai)\b/i;
+
+/* ========================= 工具函数 ========================= */
+const $ = id => document.getElementById(id);
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+function setStatus(text, cls='') {
+  const el = $('status');
+  el.textContent = text;
+  el.className = 'status ' + cls;
+}
+async function fetchJSON(url, opts={}) {
+  const res = await fetch(url, { ...opts, headers: { 'Accept':'application/json', ...(opts.headers||{}) } });
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+  return res.json();
+}
+function boldSelf(name) {
+  return SELF_RE.test(name) ? `**${name}**` : name;
+}
+function shortInitials(given, family) {
+  const parts = given.replace(/-/g,' ').split(/\s+/).filter(Boolean);
+  const initials = parts.map(p => p[0].toUpperCase()).join('.');
+  return `${initials}. ${family}`;
+}
+function formatAuthor(given, family) {
+  const name = shortInitials(given, family);
+  return boldSelf(name);
+}
+function parseOrcidAuthors(rawList) {
+  return rawList.map(n => {
+    n = n.trim();
+    if (!n) return '';
+    if (n.includes(' ') && !n.includes(',')) {
+      const [g, f] = n.rsplit(' ', 1);
+      return boldSelf(shortInitials(g, f));
+    }
+    return boldSelf(n);
+  }).filter(Boolean);
+}
+
+/* ========================= ORCID 拉取 ========================= */
+async function fetchOrcidWorks(orcid) {
+  const data = await fetchJSON(ORCID_API(orcid));
+  const articles = [];
+  for (const work of (data.group || [])) {
+    const summary = (work['work-summary'] || [{}])[0];
+    if (!summary) continue;
+
+    const title = summary.title?.title?.value || '';
+    const journal = summary['journal-title']?.value || '';
+    const year  = summary['publication-date']?.year?.value || '';
+
+    let doi = '';
+    for (const eid of (summary['external-ids']?.['external-id'] || [])) {
+      if (eid['external-id-type'] === 'doi') { doi = eid['external-id-value']; break; }
+    }
+
+    const authors = [];
+    for (const c of (work.contributors?.contributor || [])) {
+      const n = c['credit-name']?.value;
+      if (n) authors.push(n);
+    }
+    if (!authors.length) {
+      const cn = summary['credit-name']?.value;
+      if (cn) authors.push(cn);
+    }
+
+    articles.push({ title, journal, year, doi, authors });
+  }
+  return articles;
+}
+
+/* ========================= Crossref 补全 ========================= */
+async function fetchCrossref(doi) {
+  const data = await fetchJSON(CROSSREF_API(doi));
+  const msg = data.message || {};
+  const year = msg['published-print']?.['date-parts']?.[0]?.[0]
+            || msg['published-online']?.['date-parts']?.[0]?.[0]
+            || '';
+  return {
+    title: (msg.title || [])[0] || '',
+    authors: msg.author || [],
+    journal: (msg['container-title'] || [])[0] || '',
+    year: String(year),
+    volume: msg.volume || '',
+    issue: msg.issue || '',
+    page: msg.page || msg['article-number'] || '',
+  };
+}
+
+/* ========================= 合并 EXTRA_PUBS ========================= */
+function mergeExtraPubs(entries) {
+  for (const extra of EXTRA_PUBS) {
+    entries.push({ ...extra, _display_authors: extra.authors });
+  }
+  return entries;
+}
+
+/* ========================= 生成 Markdown ========================= */
+function buildMarkdown(entries) {
+  const groups = {};
+  for (const e of entries) {
+    const y = e.year || '????';
+    if (!groups[y]) groups[y] = [];
+    const authorStr = e._display_authors.join(', ');
+    const jy = e.journal_year || y;
+    const link = e.url || (e.doi ? `https://doi.org/${e.doi.toLowerCase()}` : '');
+    let line = `${authorStr}. *${e.journal}* **${jy}**, *${e.volume}*, ${e.page}.`;
+    if (e.doi && link) line += ` DOI: [${e.doi}](${link})`;
+    groups[y].push(line);
+  }
+  const sorted = Object.keys(groups).sort((a,b) => +b - +a);
+  const lines = ['## Selected Publications', '', '<!-- Generated by orcid_pub_sync.html -->', ''];
+  for (const y of sorted) {
+    lines.push(`\`${y}\``);
+    lines.push('');
+    for (const l of groups[y]) { lines.push(l); lines.push(''); }
+  }
+  return lines.join('\n');
+}
+
+/* ========================= 生成 BibTeX ========================= */
+function makeBibKey(authors, year, idx) {
+  const first = authors[0].replace(/\*\*/g,'').replace(/†/g,'').trim();
+  const lastName = first.split(/\s+/).pop();
+  return `${lastName}${year}_${idx}`;
+}
+function buildBibtex(entries) {
+  const out = [];
+  entries.forEach((e, i) => {
+    const year = e.year || '????';
+    const key = makeBibKey(e._display_authors, year, i+1);
+    const cleanAuthors = e._display_authors.map(a => a.replace(/\*\*/g,'').replace(/†/g,'').trim()).join(' and ');
+    let s = `@article{${key},\n`;
+    s += `  title = {${e.title}},\n`;
+    s += `  author = {${cleanAuthors}},\n`;
+    s += `  journal = {${e.journal}},\n`;
+    s += `  year = {${year}},\n`;
+    if (e.volume) s += `  volume = {${e.volume}},\n`;
+    if (e.issue)  s += `  number = {${e.issue}},\n`;
+    if (e.page)   s += `  pages = {${e.page}},\n`;
+    if (e.doi)    s += `  doi = {${e.doi}},\n`;
+    s += `}\n`;
+    out.push(s);
+  });
+  return out.join('\n');
+}
+
+/* ========================= 主流程 ========================= */
+async function startSync() {
+  const orcid = $('orcid').value.trim();
+  if (!orcid) { setStatus('请输入 ORCID ID', 'err'); return; }
+
+  const btn = $('btnSync');
+  btn.disabled = true;
+  setStatus('正在从 ORCID 拉取作品列表…');
+
+  let orcidData;
+  try {
+    orcidData = await fetchOrcidWorks(orcid);
+  } catch (e) {
+    setStatus(`ORCID 请求失败：${e.message}`, 'err');
+    btn.disabled = false;
+    return;
+  }
+  setStatus(`ORCID 共 ${orcidData.length} 条，开始补全 Crossref 元数据…`);
+
+  const enriched = [];
+  for (let i = 0; i < orcidData.length; i++) {
+    const item = orcidData[i];
+    let displayAuthors = parseOrcidAuthors(item.authors);
+
+    if (item.doi) {
+      setStatus(`[${i+1}/${orcidData.length}] 查询 Crossref：${item.doi} …`);
+      try {
+        await sleep(DELAY_MS);
+        const cr = await fetchCrossref(item.doi);
+        if (cr.authors && cr.authors.length) {
+          displayAuthors = cr.authors.map(a => formatAuthor(a.given||'', a.family||''));
+        }
+        enriched.push({
+          title: cr.title || item.title,
+          journal: cr.journal || item.journal,
+          year: cr.year || item.year,
+          journal_year: cr.year || item.year,
+          volume: cr.volume,
+          issue: cr.issue,
+          page: cr.page,
+          doi: item.doi,
+          _display_authors: displayAuthors,
+        });
+        continue;
+      } catch (e) {
+        setStatus(`DOI ${item.doi} 查询失败：${e.message}，回退到 ORCID 原始数据`, 'warn');
+      }
+    }
+
+    enriched.push({
+      title: item.title,
+      journal: item.journal,
+      year: item.year,
+      journal_year: item.year,
+      volume: '', issue: '', page: '',
+      doi: item.doi,
+      _display_authors: displayAuthors,
+    });
+  }
+
+  // 合并 EXTRA_PUBS
+  mergeExtraPubs(enriched);
+
+  // 输出
+  $('md').value = buildMarkdown(enriched);
+  $('bib').value = buildBibtex(enriched);
+  $('mdCount').textContent = `${enriched.length} 条（ORCID ${orcidData.length} + 保留 ${EXTRA_PUBS.length}）`;
+  $('bibCount').textContent = `${enriched.length} 条`;
+  setStatus(`✅ 完成！共 ${enriched.length} 篇文章（ORCID ${orcidData.length} 条 + 保留 ${EXTRA_PUBS.length} 条）。下方可直接复制或下载。`, 'ok');
+  btn.disabled = false;
+}
+
+/* ========================= 复制 ========================= */
+function copyOut(id) {
+  const el = $(id);
+  el.select();
+  document.execCommand('copy');
+  setStatus(`已复制 ${id==='md'?'Markdown':'BibTeX'} 到剪贴板`, 'ok');
+}
+
+// 字符串辅助
+String.prototype.rsplit = function(sep, maxsplit) {
+  const split = this.split(sep);
+  return maxsplit ? [split.slice(0, -maxsplit).join(sep)].concat(split.slice(-maxsplit)) : split;
+};
+</script>
+
+</body>
+</html>
