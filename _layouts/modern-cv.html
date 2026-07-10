@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: "Shuay Liu — CV" }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/modern-cv.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 左侧 Sidebar -->
+    <aside class="sidebar">
+      <img src="{{ site.baseurl }}/images/Shuay.jpg" alt="Avatar" class="sidebar-avatar">
+      <div class="sidebar-name">Shuay Liu</div>
+      <div class="sidebar-title">Post Doc. in Electrochemistry</div>
+
+      <ul class="sidebar-nav">
+        <li><a href="#information" class="active">Information</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#honors-awards">Honors</a></li>
+        <li><a href="#research-experience">Research</a></li>
+        <li><a href="#selected-publications">Publications</a></li>
+        <li><a href="#conferences-talks">Talks</a></li>
+        <li><a href="#technical-skills">Skills</a></li>
+        <li><a href="#community">Community</a></li>
+      </ul>
+
+      <div class="sidebar-social">
+        <a href="mailto:shliu@stu.xmu.edu.cn" title="Email">&#9993;</a>
+        <a href="http://github.com/shuayliu" title="GitHub">&#10026;</a>
+        <a href="https://www.linkedin.com/in/jonahliu/" title="LinkedIn">in</a>
+        <a href="https://orcid.org/0000-0002-6256-6208" title="ORCID">iD</a>
+        <a href="https://wiki.shuay.cn/" title="Wiki">W</a>
+      </div>
+    </aside>
+
+    <!-- 打印专用顶部 Header（屏幕隐藏） -->
+    <div class="print-header">
+      <div class="print-name">Shuay Liu</div>
+      <div class="print-title">Post Doc. in Electrochemistry</div>
+      <div class="print-contact">
+        shliu@stu.xmu.edu.cn · github.com/shuayliu · orcid.org/0000-0002-6256-6208
+      </div>
+    </div>
+
+    <main class="main" id="cv-content">
+      {{ content }}
+
+      <div class="page-footer">
+        Last updated: <span id="last-modified"></span>. References available on request.
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // ===== 自动构建 section 结构 =====
+    (function() {
+      const main = document.getElementById('cv-content');
+      if (!main) return;
+
+      // 1. 用 h2 切分，自动包裹 section
+      const h2s = Array.from(main.querySelectorAll(':scope > h2'));
+      const print2colIds = ['information', 'education', 'technical-skills'];
+
+      h2s.forEach(h2 => {
+        const section = document.createElement('section');
+        const id = h2.textContent.trim()
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-|-$/g, '');
+        section.id = id;
+
+        if (print2colIds.includes(id)) section.classList.add('print-2col');
+        if (id === 'selected-publications' || id === 'conferences-talks') {
+          section.classList.add('print-compact');
+        }
+
+        const siblings = [];
+        let node = h2.nextElementSibling;
+        while (node && node.tagName !== 'H2') {
+          siblings.push(node);
+          node = node.nextElementSibling;
+        }
+
+        section.appendChild(h2);
+        siblings.forEach(s => section.appendChild(s));
+        main.insertBefore(section, main.lastElementChild);
+      });
+
+      // 2. Publications 按年份自动分组（段落形式）
+      const pubSection = document.getElementById('selected-publications');
+      if (pubSection) {
+        const children = Array.from(pubSection.children);
+        const container = document.createElement('div');
+        container.className = 'pub-container';
+        let currentGroup = null;
+        let currentList = null;
+
+        children.forEach(child => {
+          // 检测年份标记：<p><code>YYYY</code></p>
+          const code = child.querySelector ? child.querySelector(':scope > code') : null;
+          if (child.tagName === 'P' && code && /^\d{4}$/.test(code.textContent.trim())) {
+            const year = code.textContent.trim();
+
+            // 结束上一组
+            if (currentGroup) container.appendChild(currentGroup);
+
+            // 开始新组
+            currentGroup = document.createElement('div');
+            currentGroup.className = 'pub-group';
+
+            const yearDiv = document.createElement('div');
+            yearDiv.className = 'pub-year';
+            yearDiv.textContent = year;
+            currentGroup.appendChild(yearDiv);
+
+            currentList = document.createElement('div');
+            currentList.className = 'pub-list';
+            currentGroup.appendChild(currentList);
+
+            // 移除原始年份段落
+            child.remove();
+          } else if (currentList && child.tagName === 'P') {
+            // 当前组内文献段落
+            child.classList.add('pub-item');
+            currentList.appendChild(child);
+          }
+        });
+
+        if (currentGroup) container.appendChild(currentGroup);
+        pubSection.appendChild(container);
+      }
+
+      // 3. 滚动高亮 sidebar nav
+      const sections = main.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.sidebar-nav a');
+      window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(sec => {
+          const top = sec.offsetTop;
+          if (scrollY >= top - 80) current = sec.getAttribute('id');
+        });
+        navLinks.forEach(link => {
+          link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+        });
+      });
+
+      // 4. 自动显示最后修改时间
+      const lm = document.getElementById('last-modified');
+      if (lm) {
+        lm.textContent = new Date(document.lastModified).toLocaleDateString('en-CA');
+      }
+    })();
+  </script>
+</body>
+</html>

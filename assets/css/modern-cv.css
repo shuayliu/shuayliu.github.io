@@ -1,0 +1,399 @@
+/* ===== Warm Academic CV Styles ===== */
+/* Author: Shuay Liu | cv.shuay.cn */
+
+/* ===== 重置 ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+               "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--fg);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Warm Academic 配色 ===== */
+:root {
+  --bg: #fafaf9;
+  --fg: #1f2937;
+  --muted: #6b7280;
+  --accent: #b45309;
+  --accent-light: #d97706;
+  --sidebar-bg: #44403c;
+  --sidebar-fg: #fafaf9;
+  --sidebar-muted: #a8a29e;
+  --border: #e7e5e4;
+  --card-bg: #ffffff;
+  --hover-bg: #f5f5f4;
+}
+
+/* ===== 布局 ===== */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* 左侧 Sidebar */
+.sidebar {
+  width: 280px;
+  background: var(--sidebar-bg);
+  color: var(--sidebar-fg);
+  padding: 3rem 1.5rem;
+  position: fixed;
+  left: 0; top: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow-y: auto;
+}
+.sidebar-avatar {
+  width: 120px; height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255,255,255,0.15);
+  margin-bottom: 1.25rem;
+}
+.sidebar-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.25rem;
+}
+.sidebar-title {
+  font-size: 0.875rem;
+  color: var(--sidebar-muted);
+  margin-bottom: 2rem;
+}
+.sidebar-nav {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.sidebar-nav li {
+  margin: 0.35rem 0;
+}
+.sidebar-nav a {
+  display: block;
+  color: var(--sidebar-muted);
+  text-decoration: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.4rem 0;
+  border-radius: 4px;
+  transition: color 0.2s, background 0.2s;
+}
+.sidebar-nav a:hover,
+.sidebar-nav a.active {
+  color: var(--sidebar-fg);
+  background: rgba(255,255,255,0.06);
+}
+.sidebar-social {
+  margin-top: auto;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sidebar-social a {
+  color: var(--sidebar-muted);
+  font-size: 1rem;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+.sidebar-social a:hover { color: var(--accent-light); }
+
+/* 右侧主内容 */
+.main {
+  margin-left: 280px;
+  flex: 1;
+  padding: 3rem 3rem 4rem;
+  max-width: 800px;
+}
+
+/* ===== Section 样式 ===== */
+section {
+  margin-bottom: 2.5rem;
+}
+section > h2 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+section > h3 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--fg);
+  margin: 1rem 0 0.5rem;
+}
+
+/* 条目列表 — 默认不强制 flex，Education/Honors/Research 等保持自然列表 */
+section > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+section > ul:not(.skill-tags):not(.pub-group) > li {
+  margin-bottom: 0.7rem;
+  line-height: 1.6;
+}
+section > ul:not(.skill-tags):not(.pub-group) > li > code:first-child {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--muted);
+  font-family: "SF Mono", Monaco, "Cascadia Code", monospace;
+  background: none;
+  padding: 0;
+  margin-right: 0.4rem;
+}
+section > ul:not(.skill-tags):not(.pub-group) > li strong {
+  font-weight: 600;
+  color: var(--fg);
+}
+section > ul:not(.skill-tags):not(.pub-group) > li em {
+  font-style: italic;
+  color: var(--muted);
+}
+section > ul:not(.skill-tags):not(.pub-group) > li a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+section > ul:not(.skill-tags):not(.pub-group) > li a:hover {
+  border-bottom-color: var(--accent);
+}
+
+/* 论文年份分组：左右分栏（仅 Publications） */
+.pub-group {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.pub-year {
+  flex-shrink: 0;
+  width: 90px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+  padding-top: 0.15rem;
+}
+.pub-list {
+  flex: 1;
+}
+.pub-item {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.pub-item strong { font-weight: 600; }
+.pub-item em { font-style: italic; }
+.pub-item a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.pub-item a:hover { text-decoration: underline; }
+
+/* Skills */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+.skill-tags > li {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* Links */
+#links > ul {
+  list-style: none;
+  padding: 0;
+}
+#links > ul > li {
+  margin-bottom: 0.4rem;
+}
+#links > ul > li a {
+  color: var(--accent);
+  text-decoration: none;
+}
+#links > ul > li a:hover { text-decoration: underline; }
+
+/* Footer */
+.page-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+/* 打印专用 Header，屏幕隐藏 */
+.print-header {
+  display: none;
+}
+
+/* ===== 响应式：移动端 ===== */
+@media (max-width: 768px) {
+  .container { flex-direction: column; }
+  .sidebar {
+    position: relative;
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .sidebar-nav { display: none; }
+  .main {
+    margin-left: 0;
+    padding: 2rem 1.25rem;
+    max-width: 100%;
+  }
+  .pub-group { flex-direction: column; gap: 0.5rem; }
+  .pub-year { width: auto; }
+}
+
+/* ===== 打印优化：选择性双栏 ===== */
+@media print {
+  html { scroll-behavior: auto; }
+  .sidebar { display: none; }
+  .print-header {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1.5pt solid #000;
+  }
+  .print-name {
+    font-size: 14pt;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .print-title {
+    font-size: 10pt;
+    color: #444;
+    margin-top: 0.1rem;
+  }
+  .print-contact {
+    font-size: 8.5pt;
+    color: #555;
+    margin-top: 0.2rem;
+    font-family: Menlo, monospace, sans-serif;
+  }
+  .main {
+    margin-left: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 10.5pt;
+    line-height: 1.35;
+  }
+  section {
+    margin-bottom: 0.7rem;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  /* 选择性双栏 */
+  .print-2col {
+    column-count: 2;
+    column-gap: 1.5rem;
+    column-rule: 1px solid #ddd;
+  }
+  .print-2col > h2 {
+    column-span: all;
+  }
+  .print-2col > ul > li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  /* 单栏紧凑：Publications、Conferences */
+  .print-compact {
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+  .print-compact > ul > li {
+    margin-bottom: 0.15rem;
+  }
+  .pub-group { display: block; }
+  .pub-year { display: none; }
+  .pub-item {
+    text-indent: -2em;
+    padding-left: 2em;
+    margin-bottom: 0.15rem;
+    font-size: 9pt;
+    line-height: 1.35;
+  }
+  .pub-item a { color: #000; text-decoration: none; }
+  section > h2 {
+    color: #000;
+    border-bottom-color: #888;
+    font-size: 9pt;
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.15rem;
+    letter-spacing: 0.05em;
+  }
+  section > ul:not(.skill-tags):not(.pub-group) > li {
+    margin-bottom: 0.3rem;
+  }
+  section > ul:not(.skill-tags):not(.pub-group) > li > code:first-child {
+    font-size: 9pt;
+    color: #555;
+  }
+  section > h3 {
+    font-size: 9.5pt;
+    margin: 0.5rem 0 0.2rem;
+  }
+  /* Conferences/Honors 打印时单行紧凑 */
+  #conferences-talks > ul > li,
+  #honors-awards > ul > li {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.3rem;
+    margin-bottom: 0.15rem;
+  }
+  #conferences-talks > ul > li > code:first-child,
+  #honors-awards > ul > li > code:first-child {
+    width: auto;
+    flex-shrink: 0;
+  }
+  #conferences-talks > ul > li > *:not(code:first-child),
+  #honors-awards > ul > li > *:not(code:first-child) {
+    font-size: 9pt;
+    flex: 1;
+  }
+  #conferences-talks > h3,
+  #honors-awards > h3 {
+    font-size: 9pt;
+    margin: 0.3rem 0 0.15rem;
+  }
+  .skill-tags > li {
+    font-size: 8.5pt;
+    padding: 0.08rem 0.3rem;
+  }
+  #links { display: none; }
+  a { color: #000; text-decoration: none; }
+
+  .page-footer {
+    display: block;
+    margin-top: 0.8rem;
+    padding-top: 0.3rem;
+    font-size: 8pt;
+    color: #555;
+    border-top: 1px solid #ccc;
+  }
+}
